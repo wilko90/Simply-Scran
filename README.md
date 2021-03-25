@@ -1,4 +1,4 @@
-<h1 align="center">IFD Milestone Project - Simply Srans </h1>
+<h1 align="center">IFD Milestone Project - Simply Scran's </h1>
 
 
 <img src="static/images/responsive-layout.png">
