@@ -135,6 +135,8 @@ This website is designed for users to be able to ensure that the best possible f
 
 # Structure <a name="structure"></a>
 
+The website uses a single page with the content being constructed with JavaScript, as the user navigates through the website. 
+
 ## Home Page
 
 #### Home
@@ -159,10 +161,12 @@ This website is designed for users to be able to ensure that the best possible f
 * Functional
 * Personal
 ## Search Results
+* Take data from an API
 * Explain, store and organise recipes structuredly
 * Simple, user-friendly interface
 * clear call to action 
 ## Recipe Results
+* results data extracted from API
 * Instructive layout 
 * All information detailed and understandable
 * Fully responsive 
