@@ -9,7 +9,7 @@ body{
     margin: 0;
     background-color: #FFFFFF;
     font-family: "Nunito", sans-serif ;
-    color: #6A6A6A;
+    color: #6A6A6A !important;
     
 
 }

@@ -30,78 +30,123 @@ Simply Scrans is a front-end interactive platfrom that is designed for users to 
 # Strategy <a name="sratergy-plane"></a>
 
 ## Research
+###What are the most important aspects to a recipe website?
 
+"I would like to navigate with a user-friendy interface and find my favourite recipes"
+"I would like to find a food recipe that doesnt have to make me scroll through unnecessary content to find it"
+"I would like a simple step by step guide of how to cook my desired dish"
 
+### Competitor Review
+[Delicios Magazine](https://www.deliciousmagazine.co.uk/) - To much content on one page, messy interface, difficult to navigate <br>
+[Epicurious](https://www.epicurious.com/) - Background story of recipes resulting in unnecessary scrolling and potentially lead the user astray <br>
+[Simply Recipes](https://www.simplyrecipes.com/) - Littered with advertisments resulting in bad UX <br>
 
 ## Business Approach
 
 
 ### Mission Statment
 
+A person can be satisfied by eating a good meal as well as reading about one. Simply Scran's is their to educate readers of all levels who are intrested in a diverse world of cooking. We want our users to be engage in the simplist of ways and always feel in control. 
  
-
 
 
 ### Branding
+
+* Branding defines you as your business 
+* Identify key values 
+* Consistency 
+* Clear focus that knows there target audience
    
 
-
 ### Content
-
-
+* Keep it simple
+  * Simple navagable design to prevent user distraction.
+* Findable content
+   * Findable content is designed in a way that allows users to find content through navigation and search.
+* Clear from the outset
+   * Clear content is designed with clear purpose and does not leave users with questions.
+* Human Conection
+   *  Connect with user for engagment.
+* Helpful content
+   * Helpful content is designed in a way that allows users to get something done.
+ 
 ### Aesthetics
 
-  
+* Colour
+   * Deliberate use of colours to influence the user experience on a website.
+* Images
+   * Imagery that will be appealing to your audience and is also relevant and truly adds value to your message.
+* Navigation
+   * Make it easy for visitors to find what they are looking for. Multiple tools for accessing information.
+* Textual Content
+   * keyword-rich content. Use headings and subheadings. 
+* Consistency
+   * Consistent throughout so that a visitor navigating from page to page will always know where they are and how to get to the next item of interest. 
+* Alignment
+   * Elements to be visually connected and balanced.
+
 ### Pricing
   
-    
+  * This is a free to use webpage.  
 
 
- 
-
-## User stories
+ ## User stories
 
 This website is designed for users to be able to ensure that the best possible food items are produced every time with a simple interactive interface.
 
 
-* ``
+* `As a visiting user I want to be able to understand the websites purpose so i can decide if i want to continue navigating`
  
-* ``
+* `As an invovled user I want the sureface to be simple with an aesthetically pleasing design`
 
-* ``
+* `As a connected user I want to be able to search my favourite recipes and receive clear insturctions on how to cook them`
 
-* ``
+* `As a connected user I want to be able to communicate with the site admin in a easy User-friendly way`
 
-* ``
+* `As a mobile user I want to be able to have the same features as the dektop site so I can connect with recipes on the go`
 
 # Scope <a name="scope"></a>
 
 ## Website Requirements
 
 #### User Needs
-
+* Easy Navigation
+* Attractive Design
+* Relevant Content
+* Product visuals and descriptions
+* Intuitive design and user experience
   
 
 #### Engagment
-
+* Reading & Absorbing Content
+* High speed site
+* Clutter free
+* Responsive Design
+* Prominent search box
  
 
 #### Translates / Purpose
-
+* Build An Online Presence
+* Increase brand popularity
+* Effective communication with users
+* Content available on the website is easy to structure and systematize
 
 
 
 # Structure <a name="structure"></a>
 
 ## Home Page
+#### About Us
+
+#### Inspiration
+
+#### Contact
+
+## Search Results
+
+## Recipe Results
 
  
-
-
-
-
-
-
 # Skeleton Plane <a name="skeleton-plane"></a>
 
 ### Wireframes
