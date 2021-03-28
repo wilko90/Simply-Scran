@@ -136,16 +136,36 @@ This website is designed for users to be able to ensure that the best possible f
 # Structure <a name="structure"></a>
 
 ## Home Page
+
+#### Home
+ * Clear brand logo
+ * Introduction to webpage
+ * Understand the websites values from inital contact
+ * Hero section Including mission statement
+ * Clear navigation menus
 #### About Us
+* Informative.Tells a short story, provides idea of webpage.
+* As users discover the brand, distinguish what sets the webpage apart and makes you
+* Useful
 
 #### Inspiration
+* Hand picked content to showcase the websites content
+* Eye-catching, makes user engage
+* Backs up main purpose of brand
 
 #### Contact
-
+* Boosting user engagment
+* Get visitors Intrested 
+* Functional
+* Personal
 ## Search Results
-
+* Explain, store and organise recipes structuredly
+* Simple, user-friendly interface
+* clear call to action 
 ## Recipe Results
-
+* Instructive layout 
+* All information detailed and understandable
+* Fully responsive 
  
 # Skeleton Plane <a name="skeleton-plane"></a>
 
@@ -153,10 +173,10 @@ This website is designed for users to be able to ensure that the best possible f
 
 All wireframes are the core skeleton to aid in the planning process and are not the final look of the design. I recommend that the PNGs are downloaded to be viewed in your own browser.  
 
--  []()
--  []()
--  []()
--  []()
+-  [Homepage](https://github.com/wilko90/Simply-Scran/blob/master/static/wireframes/homepage-desktop-tablet-mobile.png)
+-  [Search Results](https://github.com/wilko90/Simply-Scran/blob/master/static/wireframes/search-results.png)
+-  [Recipe Results](https://github.com/wilko90/Simply-Scran/blob/master/static/wireframes/recipe-results-modal.png)
+
 
 
 # Surface Plane <a name="surface-plane"></a>
