@@ -9,7 +9,7 @@ body{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color: #FFFFFF;
+    background-color: #F0F3F5;
     font-family: "Nunito", sans-serif ;
     
     
@@ -23,7 +23,7 @@ body{
 .navbar-brand{
     padding-left: 10rem;
     font-size: 16px;
-    color: #6A6A6A !important;
+    color:#454851 !important;
     
 }
 
@@ -31,15 +31,19 @@ body{
     padding-right: 3.5rem;
     text-indent: 1.5rem;
     font-size: 16px;
+
     
     
 }
 .bg-light{
-    background-color: #FFFFFF !important;
+    background-color: #F0F3F5 !important;
 }
 
+.nav-text-color{
+    color: #E88D67;
+}
 .navbar-light .navbar-toggler{
-    border-color: #FFFFFF;
+    border-color: #F0F3F5;
 }
 .home-title{
     color: #2D936C;
@@ -83,4 +87,14 @@ body{
 }
 .search-button :hover{
     color:#454851;
+}
+
+.initial-home-image{
+    width: 450px;
+    margin-top: 4rem;
+    margin-left: 2rem;
+    
+}
+.home-margin{
+    margin-top: 9rem;
 }
