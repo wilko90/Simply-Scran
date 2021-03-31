@@ -109,12 +109,13 @@ body{
     height: auto;
 }
 .about-us-col{
-    margin-top: 1.875rem;
+    margin-top: 3.5rem;
     padding: 20px;
 }
 .about-us-title{
     color:#2D936C;
     font-weight: bold;
+    font-size: 1.5rem;
 }
 .h4-about-us-title{
     color: #454851;
@@ -127,4 +128,51 @@ body{
 }
 .about-box{
     margin-top: 6rem;
+}
+.inspiration-title{
+    color: #2D936C;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.inspiration-h2-title{
+    color: #454851;
+    font-weight: bold;
+    margin-top:1rem;
+    margin-bottom:1rem;
+}
+.inspiration-col{
+    margin-top: 3.5rem;
+}
+
+
+.menu-img{
+    width: 25%;
+    height: 25%;
+    align-self: center;
+
+}
+.inspiration-recipe-text{
+    color: #2D936C;
+    user-select: none;
+
+}
+.inspiration-card-center{
+    justify-content:center;
+    display: flex;
+
+}
+.card-text{
+    text-align: left;
+}
+.card{
+    box-shadow:0 2px 4px rgb(3 74 40 / 15%);
+    
+}
+.category-heading{
+    color: #2D936C;
+    text-align: left;
+}
+.card-img-top{
+    height: auto;
+    width: 100%;
 }
