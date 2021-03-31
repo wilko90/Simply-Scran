@@ -108,7 +108,10 @@ body{
     width: 100%;
     height: auto;
 }
-
+.about-us-col{
+    margin-top: 1.875rem;
+    padding: 20px;
+}
 .about-us-title{
     color:#2D936C;
     font-weight: bold;
