@@ -48,14 +48,17 @@ body{
 .home-title{
     color: #2D936C;
     font-weight: bold;
+    margin-bottom: 1rem;
 }
 .home-sub-title{
     color: #454851;
     font-weight: bold;
+    margin-bottom: 1rem;
 }
 .home-h4-title{
     color: #E88D67;
-    font-size: bold;
+    font-weight: bold;
+    margin-bottom: 1rem;
 }
 .search-box{
     border: 2px solid #2D936C;
@@ -93,8 +96,32 @@ body{
     width: 450px;
     margin-top: 4rem;
     margin-left: 2rem;
+    width: 100%;
+    height: auto;
     
 }
 .home-margin{
     margin-top: 9rem;
+}
+
+.veg-image-size{
+    width: 100%;
+    height: auto;
+}
+
+.about-us-title{
+    color:#2D936C;
+    font-weight: bold;
+}
+.h4-about-us-title{
+    color: #454851;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.p-about-us{
+    color: #454851;
+}
+.about-box{
+    margin-top: 6rem;
 }
