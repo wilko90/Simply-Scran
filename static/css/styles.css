@@ -267,3 +267,18 @@ button:hover:after {
   opacity: 1;
   transition: 0.7s;
 }
+.footer{
+    background-color:#F0F3F5;
+    height: auto;
+    width: 100%;
+    padding: 40px;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
