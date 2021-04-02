@@ -179,6 +179,7 @@ body{
 }
 .card{
     box-shadow:0 2px 4px rgb(3 74 40 / 15%);
+    margin-left: 1.875rem;
     
 }
 .category-heading{
