@@ -268,11 +268,11 @@ button:hover:after {
   transition: 0.7s;
 }
 .footer{
-    background-color:#F0F3F5;
+    background-color: #F0F3F5;
     height: auto;
-    width: 100%;
-    padding: 40px;
+    width: 100vw;
     position: absolute;
+    margin-top: 3.5rem;
     left: 0;
     right: 0;
 }
@@ -281,4 +281,35 @@ button:hover:after {
     align-items: center;
     flex-direction: column;
     text-align: center;
+}
+.social-links{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.social-links li{
+    margin: 0 10px;
+}
+.social-links a{
+    text-decoration: none;
+    color:#2D936C;
+}
+.social-links a i{
+    font-size: 1.75rem;
+    transition: color 1s ease;
+}
+.social-links a:hover i{
+    color: #E88D67;
+}
+.copyright-footer{
+    width: 100vw;
+    background: #F0F3F5;
+    padding: 20px 0;
+    text-align: center;
+}
+.copyright-footer p{
+    letter-spacing: 2px;
+    font-size: 14px;
 }
