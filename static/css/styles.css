@@ -163,22 +163,15 @@ body{
     margin-top: 3.5rem;
 }
 
-
-.menu-img{
-    width: 25%;
-    height: 25%;
-    align-self: center;
-
-}
-.inspiration-recipe-text{
-    color: #2D936C;
-    user-select: none;
-
-}
 .inspiration-card-center{
     justify-content:center;
     display: flex;
 
+}
+.card-img-top{
+    height: 225px;
+    width: 100%;
+    display: block;
 }
 .card-text{
     text-align: left;
