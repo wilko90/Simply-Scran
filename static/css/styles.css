@@ -158,16 +158,12 @@ body{
     font-weight: bold;
     margin-top:1rem;
     margin-bottom:1rem;
+    padding-bottom: 20px;
 }
 .inspiration-col{
     margin-top: 96px;
 }
 
-.inspiration-card-center{
-    justify-content:center;
-    display: flex;
-
-}
 .card-img-top{
     height: 225px;
     width: 100%;
