@@ -224,7 +224,7 @@ a:hover{
 }
 .button {
   background: none;
-  color: #ccc;
+  color:#454851;
   width: 240px;
   height: 80px;
   border: 1px solid #2D936C;
@@ -252,7 +252,7 @@ button:before {
 button:after {
   content: "";
   display: block;
-  position: relative;
+  position: absolute;
   background: rgba(45,147,108,.2);
   width: 30px;
   height: 100%;
@@ -296,7 +296,8 @@ button:hover:after {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 1rem 0 3rem 0;
+    margin: 1rem 0 1.5rem 0;
+    padding-left: 0;
 }
 .social-links li{
     margin: 0 10px;
