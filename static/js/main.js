@@ -2,6 +2,9 @@ const searchForm = document.querySelector('form');
 const searchResultDiv = document.querySelector('.search-data');
 const container = document.querySelector('.container');
 let searchQuery = '';
+const APP_ID = '8cd9dfe4';
+const APP_key = 'd4c908c465e03754de3addc77af6a8a7';
+const baseURL = `https://api.edamam.com/search?q=${searchQuery}&app_id=${APP_ID}&app_key=${APP_Key}`;
 
 searchForm.addEventListener('submit', (e) => {
     e.preventDefault();
