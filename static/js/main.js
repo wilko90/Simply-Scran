@@ -1,20 +1,17 @@
-fetch("https://spoonacular-recipe-food-nutrition-v1.p.rapidapi.com/recipes/324694/analyzedInstructions?stepBreakdown=true", {
-	"method": "GET",
-	"headers": {
-		"x-rapidapi-key": "ae23dff16dmsh22f76a1569fe669p1624f8jsn623c761b8b11",
-		"x-rapidapi-host": "spoonacular-recipe-food-nutrition-v1.p.rapidapi.com"
-	}
+const searchForm = document.querySelector('form');
+const searchResultDiv = document.querySelector('.search-data');
+const container = document.querySelector('.container');
+let searchQuery = '';
+
+searchForm.addEventListener('submit', (e) => {
+    e.preventDefault();
+    searchQuery = e.target.querySelector('input').value;
+    console.log(searchQuery)
+
 })
-.then(response => response.json())
-.then(response => {
-	console.log(response);
-})
-.catch(err => {
-	console.error(err);
-});
 
 
-
+"/======SCROLL REVEAL======/"
 const sr = ScrollReveal({
     origin: 'top',
     distance: '30px',
