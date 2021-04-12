@@ -146,14 +146,15 @@
     </div>
     <!--========== Maps ==========-->
     <div class="container">
-        <div class="row about-box">
+        <div class="row maps-box">
             <div class="col-sm-6">
+                <input class="form-control" id="search" type="text" placeholder="Search..." />
                 <div id="map" class="map-css"></div>
             </div>
-            <div class="col-sm-6 about-us-col">
-                <span class="about-us-title">Maps</span>
-                <h2 class="h4-about-us-title">View Our Top Restaurants</h2>
-                <p class="p-about-us">Check out the locations of our favourite restaurants in London </p>
+            <div class="col-sm-6 maps-col">
+                <span class="maps-title">Maps</span>
+                <h2 class="maps-h2">View Our Top Restaurants</h2>
+                <p class="p-maps">Check out the locations of our favourite restaurants in London </p>
             </div>
         </div>
     </div>
@@ -228,7 +229,7 @@
     <!--========== MAIN JS ==========-->
     <script src="static/js/map.js"></script>
     <!--========== GOOGLE MAPS API ==========-->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDFKGbWjr33o26ZWehKSAUOXHllDp8MdEk&callback=initMap"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyATdc3_LjEUJQH0RVJr_pVg3qcJe-Qih98&callback=createMap&libraries=places" async defer></script>
 </body>
 
 </html>

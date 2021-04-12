@@ -1,12 +1,52 @@
+//====SEARCH MAP====//
+var map;
 
-function initMap(){
-    
+function createMap() {
     var options = {
-    center: { lat: 38.3460, lng:-0.4907 },
-    zoom: 8
-  
-};
+        center: { lat: 51.510357, lng: -0.116773 },
+        zoom: 12
+    };
 
+    map = new google.maps.Map(document.getElementById('map'), options);
+    // Create the search box and link it to the UI element.
+    var input = document.getElementById('search');
+    var searchBox = new google.maps.places.SearchBox(input);
+    // SearchBox results towards current map's viewport.
+    map.addListener('bounds_changed', function () {
+        searchBox.setBounds(map.getBounds());
+    });
+    // Listen for the event when the user selects a prediction and retrieve
+    // more details for that place.
+    var markers = [];
 
-  map = new google.maps.Map(document.getElementById("map"),options)
+    searchBox.addListener('places_changed', function () {
+        var places = searchBox.getPlaces();
+
+        if (places.length == 0)
+            return;
+    // Clear out the old markers
+        markers.forEach(function (m) { m.setMap(null); });
+        markers = [];
+
+        var bounds = new google.maps.LatLngBounds();
+        places.forEach(function (p) {
+            if (!p.geometry)
+                return;
+
+            markers.push(new google.maps.Marker({
+                map: map,
+                title: p.name,
+                position: p.geometry.location
+            }));
+
+            if (p.geometry.viewport)
+                bounds.union(p.geometry.viewport);
+            else
+                bounds.extend(p.geometry.location);
+        });
+
+        map.fitBounds(bounds);
+    });
 }
+
+//====GEO LOCATION SERVICES====//

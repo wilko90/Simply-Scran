@@ -1,9 +1,6 @@
 
 
 
-
-
-
 "/======SCROLL REVEAL======/"
 const sr = ScrollReveal({
     origin: 'top',

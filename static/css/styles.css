@@ -204,6 +204,27 @@ a:hover{
     height: 400px;
     width: 100%;
 }
+.maps-box{
+    margin-top: 96px;
+}
+.maps-col{
+    margin-top: 3.5rem;
+    padding: 20px;
+}
+.maps-title{
+    color: #2D936C;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.maps-h2{
+    color: #454851;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.p-maps{
+    color: #454851;
+}
 .contact-margin{
     margin-top: 96px;
 }
