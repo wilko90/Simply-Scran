@@ -38,10 +38,10 @@
                             <a class="nav-link active" aria-current="page" href="#">Inspiration</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                            <a class="nav-link active" aria-current="page" href="#">Maps</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Recipes</a>
+                            <a class="nav-link active" aria-current="page" href="#">Contact</a>
                         </li>
                     </ul>
 
@@ -56,9 +56,9 @@
                 <h2 class="home-sub-title">Find Meals With Your Favouite Ingrediants</h2>
                 <h4 class="home-h4-title">Search a Recipe</h4>
 
-                <form class="search-box">
+                <form class="search-box" id="searchBar">
                     <input type="text" class="search-input" placeholder="search...">
-                    <button class="search-bar search-button"><i class="fa fa-search"></i></button>
+                    <button class="search-bar search-button" id="recipeBtn"><i class="fa fa-search"></i></button>
                 </form>
 
             </div>
@@ -111,7 +111,7 @@
                 </div>
             </div>
             
-            <!-- <div class="col-md-4 card-3-reveal search-data">
+             <div class="col-md-4 card-3-reveal search-data">
                 <div class="card mb-4 box-shadow">
                     <img class="card-img-top" src="static/img/inspiration-img-2.jpeg">
                     <div class="card-body">
@@ -142,42 +142,21 @@
                     </div>
                 </div>
             </div>
-
-            <div class="col-md-4 card-5-reveal search-data">
-                <div class="card mb-4 box-shadow">
-                    <img class="card-img-top" src="static/img/inspiration-img-2.jpeg">
-                    <div class="card-body">
-                        <p class="card-text">Soy Ginger Glazed Halibut w/ Ginger Peach Relish</p>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-                                <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal"
-                                    data-target="#exampleModal">View Recipe</button>
-
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
+        </div>
+    </div>
+    <!--========== Maps ==========-->
+    <div class="container">
+        <div class="row about-box">
+            <div class="col-sm-6">
+                <div id="map" class="map-css"></div>
             </div>
-            <div class="col-md-4 card-6-reveal search-data">
-                <div class="card mb-4 box-shadow">
-                    <img class="card-img-top" src="static/img/inspiration-img-2.jpeg">
-                    <div class="card-body">
-                        <p class="card-text">Soy Ginger Glazed Halibut w/ Ginger Peach Relish</p>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-                                <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal"
-                                    data-target="#exampleModal">View Recipe</button>
-
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
+            <div class="col-sm-6 about-us-col">
+                <span class="about-us-title">Maps</span>
+                <h2 class="h4-about-us-title">View Our Top Restaurants</h2>
+                <p class="p-about-us">Check out the locations of our favourite restaurants in London </p>
             </div>
         </div>
-    </div> -->
-   
+    </div>
     <!--========== CONTACT ==========-->
     <div class="container">
         <div class="row contact-margin">
@@ -242,11 +221,14 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
         integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
         crossorigin="anonymous"></script>
-
     <!--========== SCROLL REVEAL ==========-->
-    <script src="https://unpkg.com/scrollrevea"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
     <!--========== MAIN JS ==========-->
     <script src="static/js/main.js"></script>
+    <!--========== MAIN JS ==========-->
+    <script src="static/js/map.js"></script>
+    <!--========== GOOGLE MAPS API ==========-->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDFKGbWjr33o26ZWehKSAUOXHllDp8MdEk&callback=initMap"></script>
 </body>
 
 </html>

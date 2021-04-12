@@ -200,6 +200,10 @@ a:hover{
     height: auto;
     width: 100%;
 }
+.map-css{
+    height: 400px;
+    width: 100%;
+}
 .contact-margin{
     margin-top: 96px;
 }
