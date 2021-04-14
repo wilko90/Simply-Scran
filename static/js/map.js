@@ -80,10 +80,80 @@ let restaurantLocation = [{
 
 ];
 
-let barLocations = [{
-    
+let barLocation = [{
+    coords: {
+        lat:51.518929,
+        lng: -0.102710
+    },
+    content: `<h4 class="place-name">Oriole Bar</h4>
+    <h6 class="place-address">E Poultry Ave, Farringdon, London EC1A 9LH</h6>
+    <div class="place-info">
+    <ul>
+    <li>Opening Hours: 12–11pm</li>
+    <li>Menu: <a target="blank" https://www.oriolebar.com/cocktails"></span>Drinks Menu</a></li>
+    <li>Contact Number: 020 3457 8099</li>
+    </ul>
+    </div>`
+},
+{ coords: {
+        lat:51.510471,
+        lng: -0.120920
+    },
+    content: `<h4 class="place-name">Beaufort Bar</h4>
+    <h6 class="place-address">1 Strand, London WC2R 0EZ</h6>
+    <div class="place-info">
+    <ul>
+    <li>Opening Hours: 12–11pm</li>
+    <li>Menu: <a target="blank" href="https://www.thesavoylondon.com/restaurant/beaufort-bar/"></span>Drinks Menu</a></li>
+    <li>Contact Number: 020 7420 2111</li>
+    </ul>
+    </div>`
+},
+{ coords: {
+        lat:51.524899,
+        lng:-0.093010
+    },
+    content: `<h4 class="place-name">The Gibson</h4>
+    <h6 class="place-address">44 Old St, London EC1V 9AQ</h6>
+    <div class="place-info">
+    <ul>
+    <li>Opening Hours: 11am–10pm</li>
+    <li>Menu: <a target="blank" href="http://www.thegibsonbar.london/pdf/menu.pdf"></span>Drinks Menu</a></li>
+    <li>Contact Number: 020 7608 2774</li>
+    </ul>
+    </div>`
+},
+{ coords: {
+        lat:51.507069,
+        lng: -0.111630
+    },
+    content: `<h4 class="place-name">Lyaness</h4>
+    <h6 class="place-address">20 Upper Ground, South Bank, London SE1 9PD</h6>
+    <div class="place-info">
+    <ul>
+    <li>Opening Hours: 12pm–11pm</li>
+    <li>Menu: <a target="blank" href="https://lyaness.com/menus/"></span>Drinks Menu</a></li>
+    <li>Contact Number: 020 3747 1063</li>
+    </ul>
+    </div>`
+},
+{ coords: {
+        lat:51.538342,
+        lng: -0.099340
+    },
+    content: `<h4 class="place-name">HomeBoy Bar</h4>
+    <h6 class="place-address">108 Essex Rd, Islington, London N1 8LX</h6>
+    <div class="place-info">
+    <ul>
+    <li>Opening Hours: 12pm–11pm</li>
+    <li>Menu: <a target="blank" href="https://homeboybar.com/menu-1"></span>Drinks Menu</a></li>
+    <li>Contact Number: 020 3319 8130</li>
+    <li>Cuisine: Spanish</li>
+    </ul>
+    </div>`
+},
 
-}]
+];
 
 
 // Generate map
@@ -153,7 +223,11 @@ document.getElementById("restaurants").addEventListener("click", () => {
     
 });
 
-document.getElementById("bars").addEventListener("click", () => {
+document.getElementById("cocktails").addEventListener("click", () => {
+    initMap(barLocation);
+});
+
+document.getElementById("wineBars").addEventListener("click", () => {
     initMap(barLocation);
 });
 
