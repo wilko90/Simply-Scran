@@ -90,7 +90,7 @@ let barLocation = [{
     <div class="place-info">
     <ul>
     <li>Opening Hours: 12–11pm</li>
-    <li>Menu: <a target="blank" https://www.oriolebar.com/cocktails"></span>Drinks Menu</a></li>
+    <li>Menu: <a target="blank" href="https://www.oriolebar.com/cocktails"></span>Drinks Menu</a></li>
     <li>Contact Number: 020 3457 8099</li>
     </ul>
     </div>`
@@ -154,6 +154,80 @@ let barLocation = [{
 },
 
 ];
+let wineLocation = [{
+    coords: {
+        lat:51.508080,
+        lng: -0.123780
+    },
+    content: `<h4 class="place-name">Gordon's Wine Bar</h4>
+    <h6 class="place-address">47 Villiers St, Charing Cross, London WC2N 6NE</h6>
+    <div class="place-info">
+    <ul>
+    <li>Opening Hours: 12–11pm</li>
+    <li>Menu: <a target="blank"https://www.gordonswinebar.com/propeller/uploads/2020/11/Gordons-Wine-List-2020_Sept_Final-3.pdf"></span>Wine List</a></li>
+    <li>Contact Number: 020 7930 1408</li>
+    </ul>
+    </div>`
+},
+{ coords: {
+        lat:51.530529,
+        lng: -0.073140
+    },
+    content: `<h4 class="place-name">Sager + Wilde Wine Bar</h4>
+    <h6 class="place-address">193 Hackney Rd, London E2 8JL</h6>
+    <div class="place-info">
+    <ul>
+    <li>Opening Hours: 12–11pm</li>
+    <li>Menu: <a target="blank" href="https://static1.squarespace.com/static/57e63c6b8419c20a8e15954d/t/607355f170cbbf6139255951/1618171378406/HACKNEY+ROAD+WINE+LIST_11042021.pdf"></span>Wine List</a></li>
+    <li>Contact Number: 020 8127 7330</li>
+    </ul>
+    </div>`
+},
+{ coords: {
+        lat:51.514420,
+        lng:-0.104280
+    },
+    content: `<h4 class="place-name">The Winemakers Club</h4>
+    <h6 class="place-address">41a Farringdon St, Holborn, London EC4A 4AN</h6>
+    <div class="place-info">
+    <ul>
+    <li>Opening Hours: 11am–10pm</li>
+    <li>Menu: <a target="blank" href="http://thewinemakersclub.co.uk/the-shop-and-bars"></span>Wine List</a></li>
+    <li>Contact Number: 020 7236 2936</li>
+    </ul>
+    </div>`
+},
+{ coords: {
+        lat:51.461609,
+        lng: -0.138270
+    },
+    content: `<h4 class="place-name">WC Wine & Charcuterie</h4>
+    <h6 class="place-address">Clapham Common South Side, Clapham Town, London SW4 7AA</h6>
+    <div class="place-info">
+    <ul>
+    <li>Opening Hours: 12pm–11pm</li>
+    <li>Menu: <a target="blank" href="https://www.wcbars.co.uk/"></span>Wine List</a></li>
+    <li>Contact Number: 020 3747 1063</li>
+    </ul>
+    </div>`
+},
+{ coords: {
+        lat:51.512299,
+        lng: -0.079560
+    },
+    content: `<h4 class="place-name">Willys Wine Bar</h4>
+    <h6 class="place-address">107 Fenchurch St, London EC3M 5JF</h6>
+    <div class="place-info">
+    <ul>
+    <li>Opening Hours: 12pm–11pm</li>
+    <li>Menu: <a target="blank" href="https://www.jamies.london/wp-content/uploads/2020/09/Willys-wine-bar-Drinks-Menu.pdf"></span>Wine List</a></li>
+    <li>Contact Number: 020 7480 7289</li>
+    <li>Cuisine: Spanish</li>
+    </ul>
+    </div>`
+},
+
+];
 
 
 // Generate map
@@ -178,7 +252,7 @@ function initMap(selectedLocations) {
         };
 
         map = new google.maps.Map(document.getElementById("map"), {
-            zoom: 12,
+            zoom: 10,
             center: myLatlng,
             disableDefaultUI: true,
         });
