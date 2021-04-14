@@ -148,13 +148,16 @@
     <div class="container">
         <div class="row maps-box">
             <div class="col-sm-6">
-                <input class="form-control" id="search" type="text" placeholder="Search..." />
                 <div id="map" class="map-css"></div>
             </div>
             <div class="col-sm-6 maps-col">
                 <span class="maps-title">Maps</span>
-                <h2 class="maps-h2">View Our Top Restaurants</h2>
-                <p class="p-maps">Check out the locations of our favourite restaurants in London </p>
+                <h2 class="maps-h2">View Our Top Spots</h2>
+                <p class="p-maps">Check out the locations of our favourite food and drink locations in London </p>
+                <button type="button" id="restaurants" class="btn btn-primary btn-sm">Restaurants<i class="fas fa-utensils"></i></button>
+                <button type="button" id="bars" class="btn btn-primary btn-sm">Wine Bars</button>
+                <button type="button" id="cocktails" class="btn btn-primary btn-sm">Cocktail Bars</button>
+                
             </div>
         </div>
     </div>
@@ -229,7 +232,8 @@
     <!--========== MAIN JS ==========-->
     <script src="static/js/map.js"></script>
     <!--========== GOOGLE MAPS API ==========-->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyATdc3_LjEUJQH0RVJr_pVg3qcJe-Qih98&callback=createMap&libraries=places" async defer></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyATdc3_LjEUJQH0RVJr_pVg3qcJe-Qih98&callback=initMap" async defer></script>
+    
 </body>
 
 </html>
