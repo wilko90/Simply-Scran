@@ -225,6 +225,71 @@ a:hover{
 .p-maps{
     color: #454851;
 }
+.cocktail-padding{
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.maps-buttons-style {
+  position: relative;
+  top: 10%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+}
+.maps-buttons-style {
+  background: none;
+  color:#454851 ;
+  width: 120px;
+  height: 40px;
+  border: 1px solid #2D936C ;
+  font-size: 12px;
+  border-radius: 2px;
+  transition: 0.6s;
+  overflow: hidden;
+}
+.maps-buttons-style:focus {
+  outline: none;
+}
+.maps-buttons-style:before {
+  content: "";
+  display: block;
+  position: absolute;
+  background: rgba(45,147,108,.5) ;
+  width: 30px;
+  height: 100%;
+  left: 0;
+  top: 0;
+  opacity: 0.5;
+  filter: blur(30px);
+  transform: translateX(-130px) skewX(-15deg);
+}
+.maps-buttons-style:after {
+  content: "";
+  display: block;
+  position: absolute;
+  background: rgba(45,147,108,.2) ;
+  width: 15px;
+  height: 100%;
+  left: 15px;
+  top: 0;
+  opacity: 0;
+  filter: blur(30px);
+  transform: translate(-100px) scaleX(-15deg);
+}
+.maps-buttons-style:hover {
+  background: #2D936C ;
+  color: #F0F3F5 ;
+  cursor: pointer;
+}
+.maps-buttons-style:before {
+  transform: translateX(300px) skewX(-15deg);
+  opacity: 0.6;
+  transition: 0.7s;
+}
+.maps-buttons-style:after {
+  transform: translateX(300px) skewX(-15deg);
+  opacity: 1;
+  transition: 0.7s;
+}
 .contact-margin{
     margin-top: 96px;
 }

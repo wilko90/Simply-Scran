@@ -1,9 +1,9 @@
-  
+
 let map;
 
 let restaurantLocation = [{
     coords: {
-        lat:51.503000,
+        lat: 51.503000,
         lng: -0.084110
     },
     content: `<h4 class="place-name">Aqua Shard</h4>
@@ -17,8 +17,9 @@ let restaurantLocation = [{
     </ul>
     </div>`
 },
-{ coords: {
-        lat:51.513950,
+{
+    coords: {
+        lat: 51.513950,
         lng: -0.131550
     },
     content: `<h4 class="place-name">Chotto Matte</h4>
@@ -32,8 +33,9 @@ let restaurantLocation = [{
     </ul>
     </div>`
 },
-{ coords: {
-        lat:51.512058,
+{
+    coords: {
+        lat: 51.512058,
         lng: -0.120480
     },
     content: `<h4 class="place-name">Christopher's</h4>
@@ -47,8 +49,9 @@ let restaurantLocation = [{
     </ul>
     </div>`
 },
-{ coords: {
-        lat:51.515140,
+{
+    coords: {
+        lat: 51.515140,
         lng: -0.146670
     },
     content: `<h4 class="place-name">Beast</h4>
@@ -62,8 +65,9 @@ let restaurantLocation = [{
     </ul>
     </div>`
 },
-{ coords: {
-        lat:51.510979,
+{
+    coords: {
+        lat: 51.510979,
         lng: -0.139100
     },
     content: `<h4 class="place-name">Sabor</h4>
@@ -82,7 +86,7 @@ let restaurantLocation = [{
 
 let barLocation = [{
     coords: {
-        lat:51.518929,
+        lat: 51.518929,
         lng: -0.102710
     },
     content: `<h4 class="place-name">Oriole Bar</h4>
@@ -95,8 +99,9 @@ let barLocation = [{
     </ul>
     </div>`
 },
-{ coords: {
-        lat:51.510471,
+{
+    coords: {
+        lat: 51.510471,
         lng: -0.120920
     },
     content: `<h4 class="place-name">Beaufort Bar</h4>
@@ -109,9 +114,10 @@ let barLocation = [{
     </ul>
     </div>`
 },
-{ coords: {
-        lat:51.524899,
-        lng:-0.093010
+{
+    coords: {
+        lat: 51.524899,
+        lng: -0.093010
     },
     content: `<h4 class="place-name">The Gibson</h4>
     <h6 class="place-address">44 Old St, London EC1V 9AQ</h6>
@@ -123,8 +129,9 @@ let barLocation = [{
     </ul>
     </div>`
 },
-{ coords: {
-        lat:51.507069,
+{
+    coords: {
+        lat: 51.507069,
         lng: -0.111630
     },
     content: `<h4 class="place-name">Lyaness</h4>
@@ -137,8 +144,9 @@ let barLocation = [{
     </ul>
     </div>`
 },
-{ coords: {
-        lat:51.538342,
+{
+    coords: {
+        lat: 51.538342,
         lng: -0.099340
     },
     content: `<h4 class="place-name">HomeBoy Bar</h4>
@@ -156,7 +164,7 @@ let barLocation = [{
 ];
 let wineLocation = [{
     coords: {
-        lat:51.508080,
+        lat: 51.508080,
         lng: -0.123780
     },
     content: `<h4 class="place-name">Gordon's Wine Bar</h4>
@@ -169,8 +177,9 @@ let wineLocation = [{
     </ul>
     </div>`
 },
-{ coords: {
-        lat:51.530529,
+{
+    coords: {
+        lat: 51.530529,
         lng: -0.073140
     },
     content: `<h4 class="place-name">Sager + Wilde Wine Bar</h4>
@@ -183,9 +192,10 @@ let wineLocation = [{
     </ul>
     </div>`
 },
-{ coords: {
-        lat:51.514420,
-        lng:-0.104280
+{
+    coords: {
+        lat: 51.514420,
+        lng: -0.104280
     },
     content: `<h4 class="place-name">The Winemakers Club</h4>
     <h6 class="place-address">41a Farringdon St, Holborn, London EC4A 4AN</h6>
@@ -197,8 +207,9 @@ let wineLocation = [{
     </ul>
     </div>`
 },
-{ coords: {
-        lat:51.461609,
+{
+    coords: {
+        lat: 51.461609,
         lng: -0.138270
     },
     content: `<h4 class="place-name">WC Wine & Charcuterie</h4>
@@ -211,8 +222,9 @@ let wineLocation = [{
     </ul>
     </div>`
 },
-{ coords: {
-        lat:51.512299,
+{
+    coords: {
+        lat: 51.512299,
         lng: -0.079560
     },
     content: `<h4 class="place-name">Willys Wine Bar</h4>
@@ -294,7 +306,7 @@ function initMap(selectedLocations) {
 
 document.getElementById("restaurants").addEventListener("click", () => {
     initMap(restaurantLocation);
-    
+
 });
 
 document.getElementById("cocktails").addEventListener("click", () => {
