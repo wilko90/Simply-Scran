@@ -163,6 +163,17 @@ body{
 .inspiration-col{
     margin-top: 96px;
 }
+.recipe-modal-title{
+    color: #454851;
+}
+.recipe-modal-title span{
+    font-weight: bold;
+    font-size: 28px;
+    color: #454851;
+    padding: 30px;
+    text-decoration: underline;
+}
+
 
 .card-img-top{
     height: 225px;
