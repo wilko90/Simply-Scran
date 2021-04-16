@@ -368,6 +368,48 @@ a:hover{
   opacity: 1;
   transition: 0.7s;
 }
+.contact-form-modal,input{
+    outline: none;
+}
+.contact-modal-body{
+    background-color: #F0F3F5;
+    position: relative;
+    flex: 1 1 auto;
+    padding: 1rem;
+}
+.h2-modal-contact{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+    color: #454851;
+}
+.contact-input-area{
+    margin-bottom: 10px;
+}
+.contact-input-area input[type="text"],
+.contact-input-area textarea{
+    width: 100%;
+    border: 1px solid #F0F3F5;
+    padding: 10px;
+}
+.contact-input-area textarea{
+    height: 80px;
+    resize: none;
+}
+.form-button input[type="submit"]{
+    border: 0;
+    margin-top: 15px;
+    padding: 10px;
+    width: 100%;
+    background: #2D936C;
+    color: #F0F3F5;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
 .footer{
     background-color: #F0F3F5;
     height: auto;
@@ -414,4 +456,13 @@ a:hover{
 .copyright-footer p{
     letter-spacing: 2px;
     font-size: 14px;
+}
+.modal-header{
+     background-color:#E88D67;
+}
+.modal-body{
+    color: #F0F3F5;
+}
+.modal-content{
+    box-shadow:0 2px 2px -2px rgba(0,0,0,.2);
 }
