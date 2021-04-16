@@ -12,6 +12,12 @@
         integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous" />
     <!--========== CSS ==========-->
     <link rel="stylesheet" href="static/css/styles.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("user_Ule0HXFkMUSg2RUCRofpm");
+        })();
+    </script>
     <title>Simply Scran's</title>
 </head>
 
@@ -219,25 +225,26 @@
 
                     <div class="contact-modal-body">
                         <div class="modal-header">
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <button type="button" class="close-modal-button" data-dismiss="modal" aria-label="Close"><span
+                                    aria-hidden="true">&times;</span>
+                            </button>
                         </div>
                         <h2 class="h2-modal-contact">Contact</h2>
-                        <div id="errorMessage"></div>
-                        <form id="contactForm" class="contact-form-modal" onsubmit="return validation()">
+                        <form id="contactForm" class="contact-form-modal" onsubmit="return sendMail(this)">
                             <div class="contact-input-area">
-                                <input type="text" placeholder="Name" id="name">
+                                <input name="name" type="text" placeholder="Name" id="name" required>
                             </div>
                             <div class="contact-input-area">
-                                <input type="text" placeholder="Subject" id="subject">
+                                <input name="subject" type="text" placeholder="Subject" id="subject" required>
                             </div>
                             <div class="contact-input-area">
-                                <input type="text" placeholder="Phone" id="phone">
+                                <input name="phone" type="number" placeholder="Phone" id="phone" required>
                             </div>
                             <div class="contact-input-area">
-                                <input type="text" placeholder="Email" id="email">
+                                <input name="email" type="email" placeholder="Email" id="email" required>
                             </div>
                             <div class="contact-input-area">
-                                <textarea name="" id="message" placeholder="Message"></textarea>
+                                <textarea name="message" id="message" placeholder="Message" required></textarea>
                             </div>
                             <div class="form-button">
                                 <input type="submit">

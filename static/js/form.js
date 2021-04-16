@@ -1,43 +1,27 @@
-function validation(){
-    var name = document.getElementById("name").value;
-    var subject = document.getElementById("subject").value;
-    var phone = document.getElementById("phone").value;
-    var email = document.getElementById("email").value;
-    var message = document.getElementById("message").value;
-    var errorMessage = document.getElementById("errorMessage");
-    var text;
-
-    errorMessage.style.padding = "10px";
-    
-    if(name.length <5){
-        text = "Please Enter Correct Name";
-        errorMessage.innerHTML = text;
-        return false;
-    }
-
-    if(subject.length <10){
-        text = "Please Enter Valid Subject";
-        errorMessage.innerHTML = text;
-        return false;
-    }
-
-    if(isNaN(phone) || phone.length != 11){
-        text = "Please Enter Valid Phone Number";
-        errorMessage.innerHTML = text;
-        return false;
-    }
-
-     if(email.indexOf("@") == -1 || email.length < 6){
-        text = "Please Enter Valid Email Address";
-        errorMessage.innerHTML = text;
-        return false;
-    }
-
-    if(message.length <= 15){
-        text = "Please Enter More Characters";
-        errorMessage.innerHTML = text;
-        return false;
-    }
-    alert("Form Submitted")
-    return true;
+  
+function sendMail(submitForm) {
+    emailjs.send("service_edctnvu", "template_8qrafai", {
+        "from_name": submitForm.name.value,
+        "from_subject": submitForm.subject.value,
+        "from_phone": submitForm.phone.value,
+        "from_email": submitForm.email.value,
+        "from_message": submitForm.message.value,
+    })
+    .then(
+        function(response) {
+            console.log("SUCCESS", response);
+        },
+        function(error) {
+            console.log("FAILED", error);
+        }
+    );
+    return false;  // To block from loading a new page
 }
+
+ $('#contactForm').submit(function(e) {
+    e.preventDefault();
+    // Coding
+    $('#contactModal').modal('toggle'); //or  $('#IDModal').modal('hide');
+    return false;
+});
+
