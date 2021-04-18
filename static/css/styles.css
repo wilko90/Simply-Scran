@@ -469,6 +469,27 @@ a:hover{
     border: none;
     color: #454851;
 }
+@media (max-width: 1024px){
+    .home-media{
+        margin: 0;
+    }
+    .maps-margin{
+        margin: 0;
+    }
+    .maps-buttons-style{
+        transform: translate(-30%, -50%);
+    }
+    .inspiration-col{
+        margin: 0;
+    }
+    .home-margin{
+        margin-top: 180px;
+    }
+    .map-media{
+        margin-top: 100px;
+        padding: 0;
+    }
+}
 @media (max-width: 768px){
     .navbar-brand{
         padding-left: 0;
@@ -543,9 +564,7 @@ a:hover{
    .card-text{
        font-size: 14px;
    }
-   .maps-col{
-       margin-top: -100px;
-   }
+   
 
 }
 @media (max-width: 576px){
