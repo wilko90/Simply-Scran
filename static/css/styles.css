@@ -51,9 +51,6 @@ body{
     padding-right: 3.5rem;
     text-indent: 1.5rem;
     font-size: 16px;
-
-    
-    
 }
 
 .bg-light{
@@ -62,7 +59,7 @@ body{
 .nav-link{
     color: #454851 !important;
 }
-.active-nav{
+.active-nav a{
     color: #2D936C !important;
 }
 .navbar-light .navbar-toggler{
@@ -189,8 +186,8 @@ a:hover{
     height: 400px;
     width: 100%;
 }
-.maps-box{
-    margin-top: 96px;
+.maps-margin{
+    margin-top: 120px;
 }
 .maps-col{
     margin-top: 3.5rem;
@@ -276,7 +273,7 @@ a:hover{
   transition: 0.7s;
 }
 .contact-margin{
-    margin-top: 96px;
+    margin-top: 120px;
 }
 .contact-title{
     color:#2D936C;
@@ -412,7 +409,7 @@ a:hover{
     height: auto;
     width: 100vw;
     position: absolute;
-    margin-top: 3.5rem;
+    margin-top: 9rem;
     left: 0;
     right: 0;
 }
