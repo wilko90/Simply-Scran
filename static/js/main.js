@@ -2,20 +2,20 @@
 const sections = document.querySelectorAll('section');
 const navLi = document.querySelectorAll('nav .container ul li');
 
-window.addEventListener('scroll', ()=> {
+window.addEventListener('scroll', () => {
     let current = '';
 
-    sections.forEach( section =>{
+    sections.forEach(section => {
         const sectionTop = section.offsetTop;
         const sectionHeight = section.clientHeight;
-        if(pageYOffset >= (sectionTop - sectionHeight / 3)){
+        if (pageYOffset >= (sectionTop - sectionHeight / 3)) {
             current = section.getAttribute('id');
         }
     })
-    
-    navLi.forEach( li => {
+
+    navLi.forEach(li => {
         li.classList.remove('active-nav');
-        if(li.classList.contains(current)){
+        if (li.classList.contains(current)) {
             li.classList.add('active-nav')
         }
     })

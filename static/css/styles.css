@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
-html{
-    height: 100vh;
-    scroll-behavior: smooth;
-    
-}
+
 
 body{
     padding: 0;
@@ -16,7 +12,7 @@ body{
 
 }
 #menu,#about,#maps,#contact{
-    margin-top: 120px;
+    margin-top: 160px;
 }
 .flex-wrapper {
   display: flex;
@@ -88,7 +84,6 @@ body{
     width: 450px;
     margin-top: 4rem;
     margin-left: 2rem;
-    width: 100%;
     height: auto;
     
 }
@@ -473,4 +468,140 @@ a:hover{
     font-size: 32px;
     border: none;
     color: #454851;
+}
+@media (max-width: 768px){
+    .navbar-brand{
+        padding-left: 0;
+        margin-right: 0;
+        margin-left: 20px;
+    }
+    .initial-home-image{
+        margin-left: 20px;
+        height: 300px;
+        width: auto;
+    }
+    .home-margin{
+        margin-top: 120px;
+    }
+    .maps-buttons-style{
+        transform: translate(-20%,-50%);
+    }
+    .maps-buttons-style{
+        width: 100px;
+        
+    }
+    .maps-col{
+        margin-top: 0;
+    }
+    .map-media{
+        margin-top: 20px;
+    }
+    .card-1-reveal{
+        padding: 0;
+    }
+    .card-2-reveal{
+        padding: 0;
+    }
+    .home-title,.home-h4-title,.home-sub-title{
+        margin-left: 15px;
+    }
+    .search-data{
+        padding: 12px;
+        
+    }
+    .card-display{
+    display: none;
+}
+.h2-modal-contact{
+    font-size: 16px;
+    padding-top: 32px;
+}
+.recipe-modal-title{
+    font-size: 16px;
+}
+.recipe-modal-title span{
+    font-size: 16px;
+}
+.btn-outline-secondary{
+    font-size: 16px;
+}
+.btn-outline-secondary{
+    font-size: 12px;
+}
+.map-media{
+        margin-top: -100px;
+    }
+    .about-box{
+        margin-top: -100px;
+    }
+    .contact-reveal{
+        margin-top: -100px;
+    }
+    .contact-button{
+        margin-top: -50px;
+    }
+   .card-text{
+       font-size: 14px;
+   }
+   .maps-col{
+       margin-top: -100px;
+   }
+
+}
+@media (max-width: 576px){
+    .initial-home-image{
+        margin-top: 65px;
+    }
+    .search-data{
+        padding: 12px;
+        padding-right: 35px;
+    }
+    .card-img-top{
+        height: 300px;
+        width: auto;
+    }
+    .map-media{
+        margin-top: -100px;
+    }
+    .about-box{
+        margin-top: -100px;
+    }
+    .contact-reveal{
+        margin-top: -100px;
+    }
+    .contact-button{
+        height: 80px;
+        width: 200px;
+        font-size: 12px;
+    }
+    .inspiration-col{
+        margin-top: -100px;
+    }
+    .maps-buttons-style {
+    transform: translate(-28%,-50%);
+}
+.contact-button{
+    margin-top: 20px;
+}
+.initial-home-image{
+    margin-top: 0;
+    margin-left: 25px;
+}
+.card-display{
+    display: none;
+}
+.h2-modal-contact{
+    font-size: 12px;
+    padding-top: 32px;
+}
+.recipe-modal-title{
+    font-size: 12px;
+}
+.recipe-modal-title span{
+    font-size: 12px;
+}
+.btn-outline-secondary{
+    font-size: 12px;
+}
+
 }

@@ -264,7 +264,7 @@ function initMap(selectedLocations) {
         };
 
         map = new google.maps.Map(document.getElementById("map"), {
-            zoom: 10,
+            zoom: 12,
             center: myLatlng,
             disableDefaultUI: true,
         });
@@ -303,7 +303,7 @@ function initMap(selectedLocations) {
         }
     }
 }
-
+// Event listners
 document.getElementById("restaurants").addEventListener("click", () => {
     initMap(restaurantLocation);
 
