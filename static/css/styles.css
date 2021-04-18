@@ -29,10 +29,11 @@ body{
     z-index: 100;
 }
 
-     
+.container{
+     max-width: 1200px;
+ }    
 .nav-container{
     padding: 0;
-    color: #2D936C;
 }
 
 .navbar-collapse{
@@ -54,12 +55,15 @@ body{
     
     
 }
+
 .bg-light{
     background-color: #F0F3F5 !important;
 }
-
-.nav-text-color{
-    color: #E88D67;
+.nav-link{
+    color: #454851 !important;
+}
+.active-nav{
+    color: #2D936C !important;
 }
 .navbar-light .navbar-toggler{
     border-color: #F0F3F5;
@@ -79,37 +83,6 @@ body{
     font-weight: bold;
     margin-bottom: 1rem;
 }
-.search-box{
-    border: 2px solid #2D936C;
-    display: flex;
-    border-radius: 10rem;
-}
-.search-input{
-    flex-grow: 1;
-    font-size: 1rem;
-    padding: 0 0.75rem;
-    background: transparent;
-    outline: 0;
-    border: none;
-}
-.search-bar{
-    font-size: 1.5rem;
-    cursor: pointer;
-    border: 0;
-    background: transparent;
-    border-radius: 50%;
-    background-color: #2D936C;
-    width: 2.5rem;
-    height: 2.5rem;
-
-
-}
-.search-button{
-    color: #FFFFFF;
-}
-.search-button :hover{
-    color:#454851;
-}
 
 .initial-home-image{
     width: 450px;
@@ -121,6 +94,7 @@ body{
 }
 .home-margin{
     margin-top: 15.5rem;
+    padding: 0;
 }
 
 .veg-image-size{
