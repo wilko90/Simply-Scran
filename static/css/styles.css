@@ -15,6 +15,9 @@ body{
     
 
 }
+#menu,#about,#maps,#contact{
+    margin-top: 120px;
+}
 .flex-wrapper {
   display: flex;
   min-height: calc(100vh - 56px - 189px);
@@ -186,9 +189,7 @@ a:hover{
     height: 400px;
     width: 100%;
 }
-.maps-margin{
-    margin-top: 120px;
-}
+
 .maps-col{
     margin-top: 3.5rem;
     padding: 20px;
@@ -272,9 +273,7 @@ a:hover{
   opacity: 1;
   transition: 0.7s;
 }
-.contact-margin{
-    margin-top: 120px;
-}
+
 .contact-title{
     color:#2D936C;
     font-weight: bold;

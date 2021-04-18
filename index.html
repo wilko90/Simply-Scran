@@ -25,7 +25,7 @@
     <header class="nav-header">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container nav-container">
-                <a class="navbar-brand" href="#">Simply Scrans</a>
+                <a class="navbar-brand" href="#home">Simply Scrans</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -35,7 +35,7 @@
                     id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item home">
-                            <a class="nav-link" aria-current="page" href="#home">Home</a>
+                            <a class="nav-link active-nav" aria-current="page" href="#home">Home</a>
                         </li>
                         <li class="nav-item menu">
                             <a class="nav-link" aria-current="page" href="#menu">Menu</a>
@@ -56,489 +56,494 @@
         </nav>
     </header>
     <section id="home">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-6 home-margin">
-                <h1 class="home-title">Home of Our Favourite Recipes</h1>
-                <h2 class="home-sub-title">Browse What We Are Cooking This Week </h2>
-                <h4 class="home-h4-title">Pick from our top three recipes below</h4>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 home-margin">
+                    <h1 class="home-title">Home of Our Favourite Recipes</h1>
+                    <h2 class="home-sub-title">Browse What We Are Cooking</h2>
+                    <h4 class="home-h4-title">Pick from our top three recipes below</h4>
+
+                </div>
+                <div class="col-sm-6">
+                    <img src="static/img/chicken-sald-png.png" alt="chicken-salad" class="initial-home-image">
+                </div>
 
             </div>
-            <div class="col-sm-6">
-                <img src="static/img/chicken-sald-png.png" alt="chicken-salad" class="initial-home-image">
-            </div>
-
         </div>
-    </div>
     </section>
     <!--========== INSPIRATION ==========-->
     <section id="menu">
-    <div class="container js-container">
-        <div class="row text-center inspiration-col">
-            <div class="col-md-12 inspiration-reveal inspiration-padding">
-                <span class="inspiration-title">Menu</span>
-                <h2 class="inspiration-h2-title">Unsure what to cook? Let us help you </h2>
-            </div>
+        <div class="container js-container">
+            <div class="row text-center inspiration-col">
+                <div class="col-md-12 inspiration-reveal inspiration-padding">
+                    <span class="inspiration-title">Menu</span>
+                    <h2 class="inspiration-h2-title">Unsure what to cook? Let us help you </h2>
+                </div>
 
 
-            <div class="col-md-4 card-2-reveal search-data">
-                <div class="card mb-4 box-shadow">
-                    <img class="card-img-top" src="static/img/inspiration-img-1.jpeg">
-                    <div class="card-body">
-                        <p class="card-text">Roasted Vegetable Tart</p>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-                                <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal"
-                                    data-target="#vegetableModal">View Recipe</button>
+                <div class="col-md-4 card-1-reveal search-data">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" src="static/img/inspiration-img-1.jpeg">
+                        <div class="card-body">
+                            <p class="card-text">Roasted Vegetable Tart</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal"
+                                        data-target="#vegetableModal">View Recipe</button>
+
+                                </div>
 
                             </div>
-
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="col-md-4 card-3-reveal search-data">
-                <div class="card mb-4 box-shadow">
-                    <img class="card-img-top" src="static/img/inspiration-img-2.jpeg">
-                    <div class="card-body">
-                        <p class="card-text">Soy Ginger Glazed Halibut w/ Ginger Peach Relish</p>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-                                <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal"
-                                    data-target="#halibutModal">View Recipe</button>
+                <div class="col-md-4 card-2-reveal search-data">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" src="static/img/inspiration-img-2.jpeg">
+                        <div class="card-body">
+                            <p class="card-text">Soy Ginger Glazed Halibut w/ Ginger Peach Relish</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal"
+                                        data-target="#halibutModal">View Recipe</button>
+                                </div>
+
                             </div>
-
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-4 card-4-reveal search-data">
-                <div class="card mb-4 box-shadow">
-                    <img class="card-img-top" src="static/img/inspiraton-img-3.jpeg">
-                    <div class="card-body">
-                        <p class="card-text">Pan-fried Duck Breast,Redcurrant and Port Sauce</p>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-                                <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal"
-                                    data-target="#duckModal">View Recipe</button>
+                <div class="col-md-4 card-3-reveal search-data">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" src="static/img/inspiraton-img-3.jpeg">
+                        <div class="card-body">
+                            <p class="card-text">Pan-fried Duck Breast,Redcurrant and Port Sauce</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary" data-toggle="modal"
+                                        data-target="#duckModal">View Recipe</button>
+
+                                </div>
 
                             </div>
-
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
     </section>
     <!--========== ABOUT US ==========-->
     <section id="about">
-    <div class="container">
-        <div class="row about-box">
-            <div class="col-sm-6">
-                <img src="static/img/veg-about-image.png" alt="veg-image" class="veg-image-size">
-            </div>
-            <div class="col-sm-6 about-us-col">
-                <span class="about-us-title">About us</span>
-                <h2 class="h4-about-us-title">Who We Are?</h2>
-                <p class="p-about-us">Simply Scrans is here to help you cook delicious meals with less stress and more
-                    joy. Our aim is to get you cooking like a head chef in no time. You can choose any of our free easy
-                    to make recipes.
-                </p>
+        <div class="container">
+            <div class="row about-box">
+                <div class="col-sm-6">
+                    <img src="static/img/veg-about-image.png" alt="veg-image" class="veg-image-size">
+                </div>
+                <div class="col-sm-6 about-us-col">
+                    <span class="about-us-title">About us</span>
+                    <h2 class="h4-about-us-title">Who We Are?</h2>
+                    <p class="p-about-us">Simply Scrans is here to help you cook delicious meals with less stress and
+                        more
+                        joy. Our aim is to get you cooking like a head chef in no time. You can choose any of our free
+                        easy
+                        to make recipes.
+                    </p>
+                </div>
             </div>
         </div>
-    </div>
     </section>
     <!--========== Maps ==========-->
     <section id="maps">
-    <div class="container">
-        <div class="row maps-margin">
-            <div class="col-sm-6">
-                <div id="map" class="map-css"></div>
-            </div>
-            <div class="col-sm-6 maps-col">
-                <span class="maps-title">Top Picks</span>
-                <h2 class="maps-h2">View Our Top Spots</h2>
-                <p class="p-maps">Check out the locations of our favourite food and drink locations in London </p>
-                <button type="button" id="restaurants" class="maps-buttons-style">Restaurants</button>
-                <button type="button" id="cocktails" class="maps-buttons-style cocktail-padding">Cocktail Bars</button>
-                <button type="button" id="wineBars" class="maps-buttons-style">Wine Bars</button>
+        <div class="container">
+            <div class="row maps-margin">
+                <div class="col-sm-6">
+                    <div id="map" class="map-css"></div>
+                </div>
+                <div class="col-sm-6 maps-col">
+                    <span class="maps-title">Top Picks</span>
+                    <h2 class="maps-h2">View Our Top Spots</h2>
+                    <p class="p-maps">Check out the locations of our favourite food and drink locations in London </p>
+                    <button type="button" id="restaurants" class="maps-buttons-style">Restaurants</button>
+                    <button type="button" id="cocktails" class="maps-buttons-style cocktail-padding">Cocktail
+                        Bars</button>
+                    <button type="button" id="wineBars" class="maps-buttons-style">Wine Bars</button>
 
+                </div>
             </div>
         </div>
-    </div>
     </section>
     <!--========== CONTACT ==========-->
     <section id="contact">
-    <div class="container">
-        <div class="row contact-margin">
-            <div class="col-md-6 contact-reveal">
-                <span class="contact-title">Contact us</span>
-                <h2 class="contact-h2-title">Lets Chat?</h2>
-                <p class="p-contact-us">Want to understand more about simply scran's? Click on the green contact
-                    button and submit your equiry and we will get back to you ASAP</p>
-            </div>
-            <div class="col-md-6">
+        <div class="container">
+            <div class="row contact-margin">
+                <div class="col-md-6 contact-reveal">
+                    <span class="contact-title">Contact us</span>
+                    <h2 class="contact-h2-title">Lets Chat?</h2>
+                    <p class="p-contact-us">Want to understand more about simply scran's? Click on the green contact
+                        button and submit your equiry and we will get back to you ASAP</p>
+                </div>
+                <div class="col-md-6">
 
-                <button class="contact-button" data-toggle="modal" data-target="#contactModal" type="button"> Contact Us
-                </button>
+                    <button class="contact-button" data-toggle="modal" data-target="#contactModal" type="button">
+                        Contact Us
+                    </button>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="footer">
+        <footer>
+            <div class="container-fluid footer">
+                <div class="row"></div>
+                <div class="col-md-12 footer-content">
+                    <h3 class="footer-title-h3">Simply Scrans</h3>
+                    <ul class="social-links">
+                        <li><a href=""><i class="fab fa-facebook"></i></a></li>
+                        <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                        <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                        <li><a href=""><i class="fab fa-youtube"></i></a></li>
+                        <li><a href=""><i class="fab fa-pinterest"></i></a></li>
+                    </ul>
+                    <div class="col-md-12 copyright-footer">
+                        <p>copyright &copy;2021 Super Scrans. This is for educational purposes only, Designed by
+                            <span>Mark Wilkinson</span></p>
+                    </div>
+                </div>
+
+            </div>
+        </footer>
+    </section>
+    <!--========== RECIPE MODAL RESULTS ==========-->
+    <div class="modal" id="vegetableModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-xl">
+            <div class="modal-content">
+
+                <div class="contact-modal-body">
+                    <div class="modal-header">
+                        <button type="button" class="close-modal-button" data-dismiss="modal" aria-label="Close"><span
+                                aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <h5 class="h2-modal-contact">Roasted Vegetable Tart</h5>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6 recipe-modal-title">
+                            <span class="recipe-title">Ingrediants</span>
+                            <ul>
+                                <li>
+                                    2 tablespoons olive oil
+                                </li>
+                                <li>
+                                    Salt
+                                </li>
+                                <li>
+                                    Freshly ground pepper
+                                </li>
+                                <li>
+                                    4 ounces Roquefort or other blue cheese, crumbled
+                                </li>
+                                <li>
+                                    3 ounces cream cheese, softened
+                                </li>
+                                <li>
+                                    1 large egg
+                                </li>
+                                <li>
+                                    1 tablespoon freshly grated Parmesan cheese
+                                </li>
+                                <li>
+                                    2 prepared pie crusts, not in tins (15-ounce package)
+                                </li>
+                            </ul>
+                            <div class="card" style="width: 18rem;">
+                                <img src="static/img/inspiration-img-1.jpeg" class="card-img-top" alt="veg-tart">
+                            </div>
+                        </div>
+                        <div class="col-md-6 recipe-modal-title">
+                            <span class="recipe-title">Method</span>
+                            <ol>
+                                <li>
+                                    Place racks in the upper and lower thirds of the oven and preheat to 450°. Line
+                                    2 baking sheets with foil.
+
+                                </li>
+                                <li>
+                                    In a large roasting pan, toss the eggplant, mushrooms, shallots, red bell pepper
+                                    and zucchini with the olive oil and salt and pepper. Roast the vegetables for 12
+                                    to 14 minutes, stirring once or twice, until softened.
+                                </li>
+                                <li>
+                                    Using a handheld electric mixer, beat the Roquefort and cream cheese together
+                                    until smooth. Add the egg and Parmesan; beat until blended.
+                                </li>
+                                <li>
+                                    Place 1 pie crust on each baking sheet, unfold and pinch together any tears.
+                                    Divide the cheese mixture between the crusts and spread it out, leaving a 2-inch
+                                    border of dough. Arrange the roasted vegetables on top. Fold the dough up to
+                                    partially cover the filling, crimping to seal the edges. Bake for 20 to 25
+                                    minutes, or until golden, reversing the pans halfway through cooking. Serve the
+                                    vegetable tarts warm.
+                                </li>
+
+                            </ol>
+                        </div>
+                    </div>
+                </div>
 
             </div>
         </div>
     </div>
-    </section>
-    <footer>
-        <div class="container-fluid footer">
-            <div class="row"></div>
-            <div class="col-md-12 footer-content">
-                <h3 class="footer-title-h3">Simply Scrans</h3>
-                <ul class="social-links">
-                    <li><a href=""><i class="fab fa-facebook"></i></a></li>
-                    <li><a href=""><i class="fab fa-instagram"></i></a></li>
-                    <li><a href=""><i class="fab fa-twitter"></i></a></li>
-                    <li><a href=""><i class="fab fa-youtube"></i></a></li>
-                    <li><a href=""><i class="fab fa-pinterest"></i></a></li>
-                </ul>
-                <div class="col-md-12 copyright-footer">
-                    <p>copyright &copy;2021 Super Scrans. This is for educational purposes only, Designed by
-                        <span>Mark Wilkinson</span></p>
-                </div>
-            </div>
+    <div class="modal" id="halibutModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-xl">
+            <div class="modal-content">
 
-        </div>
-        
-        <!--========== RECIPE MODAL RESULTS ==========-->
-        <div class="modal" id="vegetableModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-lg modal-xl">
-                <div class="modal-content">
-
-                    <div class="contact-modal-body">
-                        <div class="modal-header">
-                            <button type="button" class="close-modal-button" data-dismiss="modal"
-                                aria-label="Close"><span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <h5 class="h2-modal-contact">Roasted Vegetable Tart</h5>
-                        <hr>
-                        <div class="row">
-                            <div class="col-md-6 recipe-modal-title">
-                                <span class="recipe-title">Ingrediants</span>
-                                <ul>
-                                    <li>
-                                        2 tablespoons olive oil
-                                    </li>
-                                    <li>
-                                        Salt
-                                    </li>
-                                    <li>
-                                        Freshly ground pepper
-                                    </li>
-                                    <li>
-                                        4 ounces Roquefort or other blue cheese, crumbled
-                                    </li>
-                                    <li>
-                                        3 ounces cream cheese, softened
-                                    </li>
-                                    <li>
-                                        1 large egg
-                                    </li>
-                                    <li>
-                                        1 tablespoon freshly grated Parmesan cheese
-                                    </li>
-                                    <li>
-                                        2 prepared pie crusts, not in tins (15-ounce package)
-                                    </li>
-                                </ul>
-                                <div class="card" style="width: 18rem;">
-                                    <img src="static/img/inspiration-img-1.jpeg" class="card-img-top" alt="veg-tart">
-                                </div>
-                            </div>
-                            <div class="col-md-6 recipe-modal-title">
-                                <span class="recipe-title">Method</span>
-                                <ol>
-                                    <li>
-                                        Place racks in the upper and lower thirds of the oven and preheat to 450°. Line
-                                        2 baking sheets with foil.
-
-                                    </li>
-                                    <li>
-                                        In a large roasting pan, toss the eggplant, mushrooms, shallots, red bell pepper
-                                        and zucchini with the olive oil and salt and pepper. Roast the vegetables for 12
-                                        to 14 minutes, stirring once or twice, until softened.
-                                    </li>
-                                    <li>
-                                        Using a handheld electric mixer, beat the Roquefort and cream cheese together
-                                        until smooth. Add the egg and Parmesan; beat until blended.
-                                    </li>
-                                    <li>
-                                        Place 1 pie crust on each baking sheet, unfold and pinch together any tears.
-                                        Divide the cheese mixture between the crusts and spread it out, leaving a 2-inch
-                                        border of dough. Arrange the roasted vegetables on top. Fold the dough up to
-                                        partially cover the filling, crimping to seal the edges. Bake for 20 to 25
-                                        minutes, or until golden, reversing the pans halfway through cooking. Serve the
-                                        vegetable tarts warm.
-                                    </li>
-
-                                </ol>
-                            </div>
-                        </div>
+                <div class="contact-modal-body">
+                    <div class="modal-header">
+                        <button type="button" class="close-modal-button" data-dismiss="modal" aria-label="Close"><span
+                                aria-hidden="true">&times;</span>
+                        </button>
                     </div>
-
-                </div>
-            </div>
-        </div>
-        <div class="modal" id="halibutModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-lg modal-xl">
-                <div class="modal-content">
-
-                    <div class="contact-modal-body">
-                        <div class="modal-header">
-                            <button type="button" class="close-modal-button" data-dismiss="modal"
-                                aria-label="Close"><span aria-hidden="true">&times;</span>
-                            </button>
+                    <h5 class="h2-modal-contact">Soy Ginger Glazed Halibut w/ Ginger Peach Relish</h5>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6 recipe-modal-title">
+                            <span class="recipe-title">Ingrediants</span>
+                            <ul>
+                                <li>
+                                    1 bag Kingsford charcoal
+                                </li>
+                                <li>
+                                    4 halibut fillets (skin on, if desired)
+                                </li>
+                                <li>
+                                    1 teaspoon salt
+                                </li>
+                                <li>
+                                    1 teaspoon ginger, minced
+                                </li>
+                                <li>
+                                    1 teaspoon lemon juice, fresh
+                                </li>
+                                <li>
+                                    1 tablespoon parsley, fresh, chopped
+                                </li>
+                                <li>
+                                    2 tablespoons honey
+                                </li>
+                                <li>
+                                    1 cup rice, cooked
+                                </li>
+                                <li>
+                                    2 tablespoons seasoned sushi rice vinegar
+                                </li>
+                                <li>
+                                    1 green onion, to finish
+                                </li>
+                            </ul>
+                            <div class="card" style="width: 18rem;">
+                                <img src="static/img/inspiration-img-2.jpeg" class="card-img-top" alt="soy-halibut">
+                            </div>
                         </div>
-                        <h5 class="h2-modal-contact">Soy Ginger Glazed Halibut w/ Ginger Peach Relish</h5>
-                        <hr>
-                        <div class="row">
-                            <div class="col-md-6 recipe-modal-title">
-                                <span class="recipe-title">Ingrediants</span>
-                                <ul>
-                                    <li>
-                                        1 bag Kingsford charcoal
-                                    </li>
-                                    <li>
-                                        4 halibut fillets (skin on, if desired)
-                                    </li>
-                                    <li>
-                                        1 teaspoon salt
-                                    </li>
-                                    <li>
-                                        1 teaspoon ginger, minced
-                                    </li>
-                                    <li>
-                                        1 teaspoon lemon juice, fresh
-                                    </li>
-                                    <li>
-                                        1 tablespoon parsley, fresh, chopped
-                                    </li>
-                                    <li>
-                                        2 tablespoons honey
-                                    </li>
-                                    <li>
-                                        1 cup rice, cooked
-                                    </li>
-                                    <li>
-                                        2 tablespoons seasoned sushi rice vinegar
-                                    </li>
-                                    <li>
-                                        1 green onion, to finish
-                                    </li>
-                                </ul>
-                                <div class="card" style="width: 18rem;">
-                                    <img src="static/img/inspiration-img-2.jpeg" class="card-img-top" alt="soy-halibut">
-                                </div>
-                            </div>
-                            <div class="col-md-6 recipe-modal-title">
-                                <span class="recipe-title">Method</span>
-                                <ol>
-                                    <li>
-                                        Prepare grill with Kingsford charcoal. Using a charcoal chimney is a great way
-                                        to start your grill.
+                        <div class="col-md-6 recipe-modal-title">
+                            <span class="recipe-title">Method</span>
+                            <ol>
+                                <li>
+                                    Prepare grill with Kingsford charcoal. Using a charcoal chimney is a great way
+                                    to start your grill.
 
-                                    </li>
-                                    <li>
-                                        Transfer heated coals to your grill per grill instructions. Keep grill closed to
-                                        heat.
-                                    </li>
-                                    <li>
-                                        While the grill is warming, prepare all ingredients.
-                                    </li>
-                                    <li>
-                                        Dry the halibut fillets well. Season with salt and pepper on both sides.
-                                    </li>
-                                    <li>
-                                        When grill is heated and ready, coat both sides of fish with oil to prevent
-                                        sticking.
-                                    </li>
-                                    <li>
-                                        In a heat-safe small pot, add butter, soy sauce, garlic, ginger, lemon juice,
-                                        parsley and place on the back of the grill.
-                                    </li>
-                                    <li>
-                                        TIf skin-on, grill skin side first until crispy, about 5 minutes or until golden
-                                        with char marks.
-                                    </li>
-                                    <li>
-                                        Flip the fish and brush the glaze onto the now-grilled side facing up.
-                                    </li>
-                                    <li>
-                                        Grill for an additional ~4 minutes until both sides are golden.
-                                    </li>
-                                    <li>
-                                        Remove fish and glaze from grill, brushing additional glaze to coat both sides.
-                                    </li>
-                                    <li>
-                                        Add the honey to the remaining warm glaze,stirring well
-                                    </li>
-                                    <li>
-                                        Serve over rice, seasoned with the rice vinegar, and green onions.
-                                    </li>
-                                    <li>
-                                        Pour additional glaze with added honey over fish. Enjoy warm.
-                                    </li>
+                                </li>
+                                <li>
+                                    Transfer heated coals to your grill per grill instructions. Keep grill closed to
+                                    heat.
+                                </li>
+                                <li>
+                                    While the grill is warming, prepare all ingredients.
+                                </li>
+                                <li>
+                                    Dry the halibut fillets well. Season with salt and pepper on both sides.
+                                </li>
+                                <li>
+                                    When grill is heated and ready, coat both sides of fish with oil to prevent
+                                    sticking.
+                                </li>
+                                <li>
+                                    In a heat-safe small pot, add butter, soy sauce, garlic, ginger, lemon juice,
+                                    parsley and place on the back of the grill.
+                                </li>
+                                <li>
+                                    TIf skin-on, grill skin side first until crispy, about 5 minutes or until golden
+                                    with char marks.
+                                </li>
+                                <li>
+                                    Flip the fish and brush the glaze onto the now-grilled side facing up.
+                                </li>
+                                <li>
+                                    Grill for an additional ~4 minutes until both sides are golden.
+                                </li>
+                                <li>
+                                    Remove fish and glaze from grill, brushing additional glaze to coat both sides.
+                                </li>
+                                <li>
+                                    Add the honey to the remaining warm glaze,stirring well
+                                </li>
+                                <li>
+                                    Serve over rice, seasoned with the rice vinegar, and green onions.
+                                </li>
+                                <li>
+                                    Pour additional glaze with added honey over fish. Enjoy warm.
+                                </li>
 
-                                </ol>
-                            </div>
+                            </ol>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="modal" id="duckModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-lg modal-xl">
-                <div class="modal-content">
+    </div>
+    <div class="modal" id="duckModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-xl">
+            <div class="modal-content">
 
-                    <div class="contact-modal-body">
-                        <div class="modal-header">
-                            <button type="button" class="close-modal-button" data-dismiss="modal"
-                                aria-label="Close"><span aria-hidden="true">&times;</span>
-                            </button>
+                <div class="contact-modal-body">
+                    <div class="modal-header">
+                        <button type="button" class="close-modal-button" data-dismiss="modal" aria-label="Close"><span
+                                aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <h5 class="h2-modal-contact">Pan-fried Duck Breast Recipe with Redcurrant and Port Sauce</h5>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-6 recipe-modal-title">
+                            <span class="recipe-title">Ingrediants</span>
+                            <ul>
+                                <li>
+                                    2 duck breasts (skin on)
+                                </li>
+                                <li>
+                                    Rough sea salt
+                                </li>
+                                <li>
+                                    Freshly ground black pepper
+                                </li>
+                                <li>
+                                    150ml chicken stock
+                                </li>
+                                <li>
+                                    100g redcurrants
+                                </li>
+                                <li>
+                                    10g unsalted butter
+                                </li>
+                                <li>
+                                    1 shallot (finely chopped)
+                                </li>
+                                <li>
+                                    1tsp of fresh thyme leaves
+                                </li>
+                                <li>
+                                    2tsp of port (ruby or tawny)
+                                </li>
+                                <li>
+                                    1tbsp of
+                                    Salt and pepper, to taste
+                                </li>
+                            </ul>
+                            <div class="card" style="width: 18rem;">
+                                <img src="static/img/inspiraton-img-3.jpeg" class="card-img-top" alt="duck-breast">
+                            </div>
                         </div>
-                        <h5 class="h2-modal-contact">Pan-fried Duck Breast Recipe with Redcurrant and Port Sauce</h5>
-                        <hr>
-                        <div class="row">
-                            <div class="col-md-6 recipe-modal-title">
-                                <span class="recipe-title">Ingrediants</span>
-                                <ul>
-                                    <li>
-                                        2 duck breasts (skin on)
-                                    </li>
-                                    <li>
-                                        Rough sea salt
-                                    </li>
-                                    <li>
-                                        Freshly ground black pepper
-                                    </li>
-                                    <li>
-                                        150ml chicken stock
-                                    </li>
-                                    <li>
-                                        100g redcurrants
-                                    </li>
-                                    <li>
-                                        10g unsalted butter
-                                    </li>
-                                    <li>
-                                        1 shallot (finely chopped)
-                                    </li>
-                                    <li>
-                                        1tsp of fresh thyme leaves
-                                    </li>
-                                    <li>
-                                        2tsp of port (ruby or tawny)
-                                    </li>
-                                    <li>
-                                        1tbsp of
-                                        Salt and pepper, to taste
-                                    </li>
-                                </ul>
-                                <div class="card" style="width: 18rem;">
-                                    <img src="static/img/inspiraton-img-3.jpeg" class="card-img-top" alt="duck-breast">
-                                </div>
-                            </div>
-                            <div class="col-md-6 recipe-modal-title">
-                                <span class="recipe-title">Method</span>
-                                <ol>
-                                    <li>
-                                        Heat the oven to 200°C.
-                                    </li>
-                                    <li>
-                                        Use salt and pepper to season the duck skin side up.
-                                    </li>
-                                    <li>
-                                        Put the duck breasts in a cold pan, skin side down. Turn on the heat to
-                                        medium-high and allow the duck to cook. If it starts to smoke, turn down the
-                                        heat a little.
-                                    </li>
-                                    <li>
-                                        Once the duck has cooked about halfway through, transfer it to the oven while in
-                                        the pan. Top tip: Before you transfer your pan-fried duck breasts to the oven,
-                                        ensure your pan has an oven proof handle. If not, simply transfer the duck to a
-                                        roasting tray. If you are planning to use a roasting tray, ensure it is heated
-                                        in the oven beforehand. The duck should be placed in the oven skin side down.
-                                    </li>
-                                    <li>
-                                        Once in the oven, cook the duck for a further 5-10 minutes. Adjust your times
-                                        based on how well cooked you like your meat to be.
-                                    </li>
-                                    <li>
-                                        Remove and allow to rest for a further seven minutes before slicing.
-                                    </li>
-                                    <li>
-                                        To make your redcurrant jus, place half the butter in a pan and allow it to
-                                        melt. Then add the shallot and cook until softened on a medium heat.
-                                    </li>
-                                    <li>
-                                        Add the thyme, chicken stock, port, honey and a little salt and pepper. Add
-                                        about 3/4 of the red currants, keeping the rest back to add at the end of
-                                        cooking.
-                                    </li>
-                                    <li>
-                                        Next, reduce the redcurrant and port To do this, simply increase the heat and
-                                        simmer until it’s at a third of its original volume.
-                                    </li>
-                                    <li>
-                                        Turn down the heat, add the rest of the butter and whisk through until it is
-                                        melted. Add the remaining berries, season to taste and serve over the sliced
-                                        duck.
-                                    </li>
-                                </ol>
-                            </div>
+                        <div class="col-md-6 recipe-modal-title">
+                            <span class="recipe-title">Method</span>
+                            <ol>
+                                <li>
+                                    Heat the oven to 200°C.
+                                </li>
+                                <li>
+                                    Use salt and pepper to season the duck skin side up.
+                                </li>
+                                <li>
+                                    Put the duck breasts in a cold pan, skin side down. Turn on the heat to
+                                    medium-high and allow the duck to cook. If it starts to smoke, turn down the
+                                    heat a little.
+                                </li>
+                                <li>
+                                    Once the duck has cooked about halfway through, transfer it to the oven while in
+                                    the pan. Top tip: Before you transfer your pan-fried duck breasts to the oven,
+                                    ensure your pan has an oven proof handle. If not, simply transfer the duck to a
+                                    roasting tray. If you are planning to use a roasting tray, ensure it is heated
+                                    in the oven beforehand. The duck should be placed in the oven skin side down.
+                                </li>
+                                <li>
+                                    Once in the oven, cook the duck for a further 5-10 minutes. Adjust your times
+                                    based on how well cooked you like your meat to be.
+                                </li>
+                                <li>
+                                    Remove and allow to rest for a further seven minutes before slicing.
+                                </li>
+                                <li>
+                                    To make your redcurrant jus, place half the butter in a pan and allow it to
+                                    melt. Then add the shallot and cook until softened on a medium heat.
+                                </li>
+                                <li>
+                                    Add the thyme, chicken stock, port, honey and a little salt and pepper. Add
+                                    about 3/4 of the red currants, keeping the rest back to add at the end of
+                                    cooking.
+                                </li>
+                                <li>
+                                    Next, reduce the redcurrant and port To do this, simply increase the heat and
+                                    simmer until it’s at a third of its original volume.
+                                </li>
+                                <li>
+                                    Turn down the heat, add the rest of the butter and whisk through until it is
+                                    melted. Add the remaining berries, season to taste and serve over the sliced
+                                    duck.
+                                </li>
+                            </ol>
                         </div>
                     </div>
-
                 </div>
+
             </div>
         </div>
-        <!--========== CONTACT MODAL FORM ==========-->
-        <div class="modal" id="contactModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
+    </div>
+    <!--========== CONTACT MODAL FORM ==========-->
+    <div class="modal" id="contactModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
 
-                    <div class="contact-modal-body">
-                        <div class="modal-header">
-                            <button type="button" class="close-modal-button" data-dismiss="modal"
-                                aria-label="Close"><span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <h2 class="h2-modal-contact">Contact</h2>
-                        <form id="contactForm" class="contact-form-modal" onsubmit="return sendMail(this)">
-                            <div class="contact-input-area">
-                                <input name="name" type="text" placeholder="Name" id="name" required>
-                            </div>
-                            <div class="contact-input-area">
-                                <input name="subject" type="text" placeholder="Subject" id="subject" required>
-                            </div>
-                            <div class="contact-input-area">
-                                <input name="phone" type="number" placeholder="Phone" id="phone" required>
-                            </div>
-                            <div class="contact-input-area">
-                                <input name="email" type="email" placeholder="Email" id="email" required>
-                            </div>
-                            <div class="contact-input-area">
-                                <textarea name="message" id="message" placeholder="Message" required></textarea>
-                            </div>
-                            <div class="form-button">
-                                <input type="submit">
-                            </div>
-                        </form>
+                <div class="contact-modal-body">
+                    <div class="modal-header">
+                        <button type="button" class="close-modal-button" data-dismiss="modal" aria-label="Close"><span
+                                aria-hidden="true">&times;</span>
+                        </button>
                     </div>
-
+                    <h2 class="h2-modal-contact">Contact</h2>
+                    <form id="contactForm" class="contact-form-modal" onsubmit="return sendMail(this)">
+                        <div class="contact-input-area">
+                            <input name="name" type="text" placeholder="Name" id="name" required>
+                        </div>
+                        <div class="contact-input-area">
+                            <input name="subject" type="text" placeholder="Subject" id="subject" required>
+                        </div>
+                        <div class="contact-input-area">
+                            <input name="phone" type="number" placeholder="Phone" id="phone" required>
+                        </div>
+                        <div class="contact-input-area">
+                            <input name="email" type="email" placeholder="Email" id="email" required>
+                        </div>
+                        <div class="contact-input-area">
+                            <textarea name="message" id="message" placeholder="Message" required></textarea>
+                        </div>
+                        <div class="form-button">
+                            <input type="submit">
+                        </div>
+                    </form>
                 </div>
+
             </div>
         </div>
-    </footer>
+    </div>
     <!--========== JQUERY ==========-->
     <script src="https://code.jquery.com/jquery-3.6.0.js"
         integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
