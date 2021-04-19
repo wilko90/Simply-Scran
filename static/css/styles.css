@@ -81,7 +81,7 @@ body{
 }
 
 .initial-home-image{
-    width: 450px;
+    max-width: 100%;
     margin-top: 4rem;
     margin-left: 2rem;
     height: auto;
@@ -92,8 +92,9 @@ body{
     padding: 0;
 }
 
-.veg-image-size{
-    width: 100%;
+
+.about-image-size{
+    max-width: 100%;
     height: auto;
 }
 .about-us-col{
@@ -145,8 +146,8 @@ body{
 
 
 .card-img-top{
-    height: 225px;
-    width: 100%;
+    max-width: 100%;
+    height: auto;
     display: block;
 }
 .card-text{
@@ -201,6 +202,9 @@ a:hover{
 }
 .p-maps{
     color: #454851;
+}
+.map-buttons{
+    margin-top: 40px;
 }
 .cocktail-padding{
     margin-right: 15px;
@@ -488,6 +492,9 @@ a:hover{
         margin-top: 100px;
         padding: 0;
     }
+    .map-buttons{
+        margin-top: 40px;
+    }
 }
 @media (max-width: 768px){
     .navbar-brand{
@@ -504,14 +511,13 @@ a:hover{
         margin-top: 120px;
     }
     .maps-buttons-style{
-        transform: translate(-20%,-50%);
-    }
-    .maps-buttons-style{
+        transform: translate(-50%,-50%);
         width: 100px;
-        
     }
+    
     .maps-col{
         margin-top: 0;
+        padding: 0;
     }
     .map-media{
         margin-top: 20px;
@@ -548,9 +554,7 @@ a:hover{
 .btn-outline-secondary{
     font-size: 12px;
 }
-.map-media{
-        margin-top: -100px;
-    }
+
     .about-box{
         margin-top: -100px;
     }
@@ -562,6 +566,12 @@ a:hover{
     }
    .card-text{
        font-size: 14px;
+   }
+   #cocktails{
+       margin: 0;
+   }
+   .map-buttons{
+       padding: 20px;
    }
    
 
@@ -601,6 +611,8 @@ a:hover{
 }
 .initial-home-image{
     margin: 0;
+    max-width: 100%;
+    height: auto;
     
 }
 .card-display{
@@ -631,9 +643,21 @@ a:hover{
 .about-us-col{
     text-align: center;
 }
+.map-buttons{
+    padding: 20px;
+    margin-top: 0;
+    margin-left: 40px;
+}
+#wineBars{
+    margin: 10px;
+}
+#cocktails{
+    margin: 0;
+}
 
 .maps-buttons-style{
-    margin-top: 10px;
+    margin-top: 0;
+    
 }
 .copyright-footer p{
     font-size: 12px;
@@ -660,7 +684,15 @@ a:hover{
 }
 .maps-col{
     padding: 0;
-    padding-top: 20px;
+    
 }
 
+}
+@media (max-width: 280px){
+    .map-buttons{
+        margin-top: 0;
+    }
+    .maps-buttons-style{
+        transform: translate(-20%,-20%);
+    }
 }
