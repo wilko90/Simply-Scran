@@ -186,7 +186,6 @@ a:hover{
 }
 
 .maps-col{
-    margin-top: 3.5rem;
     padding: 20px;
 }
 .maps-title{
@@ -571,22 +570,21 @@ a:hover{
     .initial-home-image{
         margin-top: 65px;
     }
-    .search-data{
-        padding: 12px;
-        padding-right: 35px;
-    }
+    
     .card-img-top{
         height: 300px;
         width: auto;
     }
     .map-media{
         margin-top: -100px;
+        text-align: center;
     }
     .about-box{
         margin-top: -100px;
     }
     .contact-reveal{
         margin-top: -100px;
+        text-align: center;
     }
     .contact-button{
         height: 80px;
@@ -596,15 +594,14 @@ a:hover{
     .inspiration-col{
         margin-top: -100px;
     }
-    .maps-buttons-style {
-    transform: translate(-28%,-50%);
-}
+    
+
 .contact-button{
     margin-top: 20px;
 }
 .initial-home-image{
-    margin-top: 0;
-    margin-left: 25px;
+    margin: 0;
+    
 }
 .card-display{
     display: none;
@@ -621,6 +618,49 @@ a:hover{
 }
 .btn-outline-secondary{
     font-size: 12px;
+}
+.home-img-media{
+    padding: 0;
+}
+.box-shadow{
+    margin: 0;
+}
+.search-data{
+    padding: 0;
+}
+.about-us-col{
+    text-align: center;
+}
+
+.maps-buttons-style{
+    margin-top: 10px;
+}
+.copyright-footer p{
+    font-size: 12px;
+}
+.social-links a i{
+    font-size: 18px;
+}
+.footer {
+      margin-top: 50px;
+}
+.social-links{
+    margin-bottom: 0;
+}
+.place-name{
+    font-size: 16px;
+}
+.place-address{
+    font-size: 14px;
+}
+.place-info ul{
+    font-size: 9px;
+    margin-bottom: 0;
+    padding-left: 12px;
+}
+.maps-col{
+    padding: 0;
+    padding-top: 20px;
 }
 
 }
