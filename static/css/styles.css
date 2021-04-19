@@ -37,7 +37,10 @@ body{
 
 .navbar-collapse{
     flex-grow: 0;
+    text-align: center;
+    
 }
+
 
 .navbar-brand{
     padding-left: 10rem;
