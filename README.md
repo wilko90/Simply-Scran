@@ -268,19 +268,24 @@ to help draw the user in.
 <img src="static/img/button-1.png"> <img src="static/img/button-2.png">
 
 
-
-
-
-
-
-
 # Features <a name="features"></a>
 
 
 ## Existing Features
 
+### Retrieving Goole API 
+The main feature in my webpage is extracting data from [Google Maps API](https://developers.google.com/maps/documentation/javascript/overview) and icorporating into clickable buttons to make the user interact with the map.
+On each click of a button, markers will drop on the map, and then the markers themselves once clicked will open an info window. 
+The info windows contain information on each location such as the name and address of the placed marker. The info windows contain details of opening hours, menus that are linked to an external source and contact number.
+
+### Navigation Effects
+Navagation plays a key role in user experience, implementing visualy pleasing effects makes the website more dynamic and interactive.
+Adding the feature [Scroll Reveal](https://scrollrevealjs.org/) which is a JavaScript library for easily animating elements as they enter/leave the viewport.
 
 
+### Contact 
+This is a place to connect the user and the admin. I designed this feature with in a modal for the purpose of not navigating the user away from the main page.
+When the contact button is initiated you are presented with a modal containing a form with five inputs to be interacted with. The functionality of the form is connected with [Emailjs](https://www.emailjs.com/)
  
 ## Features To Implement
 
