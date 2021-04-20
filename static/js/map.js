@@ -1,11 +1,12 @@
 
 let map;
-
+// Restaurant location pins
 let restaurantLocation = [{
     coords: {
         lat: 51.503000,
         lng: -0.084110
     },
+    
     content: `<h4 class="place-name">Aqua Shard</h4>
     <h6 class="place-address">Level 31, The Shard, London SE1 9RY</h6>
     <div class="place-info">
@@ -83,7 +84,7 @@ let restaurantLocation = [{
 },
 
 ];
-
+// Cocktail location pins
 let barLocation = [{
     coords: {
         lat: 51.518929,
@@ -162,6 +163,7 @@ let barLocation = [{
 },
 
 ];
+// Wine bar location pins
 let wineLocation = [{
     coords: {
         lat: 51.508080,
@@ -302,7 +304,11 @@ function initMap(selectedLocations) {
             var currentInfoWindow = null;
         }
     }
+
+
 }
+
+
 // Event listners
 document.getElementById("restaurants").addEventListener("click", () => {
     initMap(restaurantLocation);

@@ -1,5 +1,5 @@
-"/======SCROLL SECTIONS======/"
-"/======https://www.youtube.com/watch?v=RsPWEmfOQdU======/"
+//SCROLL SECTIONS
+//https://www.youtube.com/watch?v=RsPWEmfOQdU
 const sections = document.querySelectorAll('section');
 const navLi = document.querySelectorAll('nav .container ul li');
 
@@ -25,7 +25,7 @@ window.addEventListener('scroll', () => {
 
 
 
-"/======SCROLL REVEAL======/"
+//SCROLL REVEAL
 "/======https://stackoverflow.com/questions/40620736/scrollreveal-javascript-not-defined======/"
 const sr = ScrollReveal({
     origin: 'top',
@@ -38,7 +38,7 @@ sr.reveal(`.home-margin, .initial-home-image, .inspiration-reveal, .card-1-revea
     interval: 200
 });
 
-"/======HIDE COLLAPSABLE NAVBAR======/"
+//HIDE COLLAPSABLE NAVBAR
 "/https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-navbar-on-click/"
 const navLinks = document.querySelectorAll('.nav-item')
 const menuToggle = document.getElementById('Responsivenav')
