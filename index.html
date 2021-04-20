@@ -13,12 +13,16 @@
     <!--========== CSS ==========-->
     <link rel="stylesheet" href="static/css/styles.css">
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <!--========== EMAIL.JS ==========-->
     <script type="text/javascript">
         (function () {
             emailjs.init("user_Ule0HXFkMUSg2RUCRofpm");
         })();
     </script>
+    <!--========== SWEET ALERT ==========-->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
     <title>Simply Scran's</title>
+    <link rel="shortcut icon" type="image/png" href="static/img/favicon.ico">
 </head>
 
 <body>
@@ -206,7 +210,7 @@
                     <li><a href=""><i class="fab fa-pinterest"></i></a></li>
                 </ul>
                 <div class="col-md-12 copyright-footer">
-                    <p>copyright &copy;2021 Super Scrans. This is for educational purposes only, Designed by
+                    <p>copyright &copy;2021 Simply Scrans. This is for educational purposes only, Designed by
                         <span>Mark Wilkinson</span></p>
                 </div>
             </div>
@@ -536,7 +540,7 @@
                             <textarea name="message" id="message" placeholder="Message" required></textarea>
                         </div>
                         <div class="form-button">
-                            <input type="submit">
+                            <input id="formInput" type="submit">
                         </div>
                     </form>
                 </div>

@@ -26,7 +26,7 @@ window.addEventListener('scroll', () => {
 
 
 //SCROLL REVEAL
-"/======https://stackoverflow.com/questions/40620736/scrollreveal-javascript-not-defined======/"
+//https://stackoverflow.com/questions/40620736/scrollreveal-javascript-not-defined
 const sr = ScrollReveal({
     origin: 'top',
     distance: '30px',
@@ -39,10 +39,11 @@ sr.reveal(`.home-margin, .initial-home-image, .inspiration-reveal, .card-1-revea
 });
 
 //HIDE COLLAPSABLE NAVBAR
-"/https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-navbar-on-click/"
+//https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-navbar-on-click
 const navLinks = document.querySelectorAll('.nav-item')
 const menuToggle = document.getElementById('Responsivenav')
 const bsCollapse = new bootstrap.Collapse(menuToggle)
 navLinks.forEach((l) => {
     l.addEventListener('click', () => { bsCollapse.toggle() })
 })
+
