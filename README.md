@@ -30,7 +30,7 @@ Simply Scrans is a front-end interactive platfrom that is designed for users to 
 # Strategy <a name="sratergy-plane"></a>
 
 ## Research
-###What are the most important aspects to a recipe website?
+### What are the most important aspects to a recipe website?
 
 "I would like to navigate with a user-friendy interface and find your favourite recipes"
 "I would like to find a food recipe that doesnt have to make me scroll through unnecessary content to find it"
@@ -280,16 +280,40 @@ The info windows contain information on each location such as the name and addre
 
 ### Navigation Effects
 Navagation plays a key role in user experience, implementing visualy pleasing effects makes the website more dynamic and interactive.
-Adding the feature [Scroll Reveal](https://scrollrevealjs.org/) which is a JavaScript library for easily animating elements as they enter/leave the viewport.
+Adding the feature [Scroll Reveal](https://scrollrevealjs.org/) which is a JavaScript library for easily animating elements as they enter/leave the viewport. Java script has also been used to change the colour state of the nav bar links when interacted with, this is to allow the user to understand what section of the webpage they are in.
 
 
 ### Contact 
 This is a place to connect the user and the admin. I designed this feature with in a modal for the purpose of not navigating the user away from the main page.
-When the contact button is initiated you are presented with a modal containing a form with five inputs to be interacted with. The functionality of the form is connected with [Emailjs](https://www.emailjs.com/)
+When the contact button is initiated you are presented with a modal containing a form with five inputs to be interacted with. The functionality of the form is connected with [Emailjs](https://www.emailjs.com/).
  
+### Favicon Iconfinder
+
+My favicon is a image of an avacado to symbolise freshness. The image is situated in the tab, this helps the webpage stand out if the users address bar is cluttered.
+
+### Modals
+
+Modals are implemented into the site, using Bootstrap, to provide an additional degree of interactivity. Modals avoid the need to use of window pop-ups or page reloads
+and keeps the users usability on the site. The modals contain the method and ingrediants in a simplistic eye catching design.
+
+### Responsive Design
+
+This project is designed to be fully compatible and interactive on all screen types and sizes, ensuring maximum functionality down to 280px width screen sizes.
+All features implemented have been adjusted to size where necessary in the `stylesheet.css` using `@media`. This allows you to not only vary viewport dimensions based on screen size, but also allows me to set different style properties for different devices.
+
 ## Features To Implement
 
+### Food Search Engine
 
+Extract data from a recipe API engine to allow the user to be able to search, Save and organize recipes.
+
+### Registration And Log In 
+
+Implement a sign up and log in page to allow users to access there saved recipes at any given time, this feature will need a open source data base [mySQL](https://www.mysql.com/).
+
+### Social Platfrom 
+
+Allow users to interact with each other by comparing recipes, cooking techniques and stories. This can be implmented using html,css and java script.
 
 # Technologies Used <a name="technologies-used"></a>
 
@@ -297,22 +321,30 @@ When the contact button is initiated you are presented with a modal containing a
 
 * [HTML](https://en.wikipedia.org/wiki/HTML) was used as the standard mockup language to build my project.
 * [CSS](https://en.wikipedia.org/wiki/CSS) was used to style my website and implement my ideas from the surface plane.
-* [Javascript](https://en.wikipedia.org/wiki/JavaScript). 
+* [Javascript](https://en.wikipedia.org/wiki/JavaScript).was used to implement interactive features.
 
 ### Frameworks, Libraries and Programmes
 
 * My Project was written and developed using [Gitpod](https://gitpod.io/workspaces/).
 * My projects uses [Github](https://github.com/) as a web based platfrom to store and host repositories.
+* The project was debugged using [Google Chrome Dev](https://developer.chrome.com/docs/devtools/) tools.
 * The template I used was a guide made from [Code Institute](https://github.com/Code-Institute-Org/gitpod-full-template).
+* My project uses [Jquery 3.3.1](https://jquery.com/) a javascript library to aid in HTML traversal, event handling, animation, and Ajax.
+* My project uses [Scroll Reveal](https://scrollrevealjs.org/) JavaScript library to animate elements as they scroll into view.
+* My project uses [Email.JS](https://www.emailjs.com/) to send email directly from javaScript
+* My projects [Favicon-generator](https://www.favicon-generator.org/) to convert the Favicon to the appropriate format.
+* My project uses [Sweet Alert](https://sweetalert2.github.io/) a replacement for JavaScript's popup boxes.
+* My projects API's extracted data from [GoogleAPI](https://console.cloud.google.com/apis/dashboard?pli=1)
 * My project uses [Boot Strap](https://getbootstrap.com/) 4.5.2 to aid with responsive and mobile first design.
-* [popper.js](https://popper.js.org/) 1.14.3 Tool tip, positioning engine.
+* [Popper.js](https://popper.js.org/) 1.14.3 Tool tip, positioning engine.
 * The typography used in my project came from [google fonts](https://fonts.google.com/)
-* My project uses [Font Awsome](https://fontawesome.com/) v5.0.10 for icons and tool set kits.
+* My projects accessibility was tested with [Google Lighthouse](https://developers.google.com/web/tools/lighthouse)
+* My project uses [Font Awsome](https://fontawesome.com/) v5.15.3 for icons and tool set kits.
 * The wireframes were made with a programme called [balsamiq](https://balsamiq.com/)
 * My projects colour ratio was tested with [Contrast Ratio](https://contrast-ratio.com/)
 * My projects logo and typography was graded with [W3](https://www.w3.org/TR/WCAG/#contrast-minimum) guidelines.
 * To aid my css compatabilty for browser support I used [Auto Prefixer](https://autoprefixer.github.io/)
-* [Techsini](https://techsini.com/multi-mockup/index.php) A tool I used to show that my design is responsive at the head of my Readme.
+* [Techsini](https://techsini.com/multi-mockup/index.php) A tool I used to show that my design is responsive.
 * css code beautified with [minifycocde](http://minifycode.com/css-beautifier/).
 * html code formated using [Github](https://www.gitpod.io/docs/tips-and-tricks/#format-document) formating tool 
 
