@@ -1,7 +1,7 @@
 <h1 align="center">IFD Milestone Project - Simply Scrans </h1>
 
 
-<img src="static/img/logo.png"> <img src="static/img/scran-definition.png">
+<img src="static/img/readme-img/logo.png"> <img src="static/img/readme-img/scran-definition.png">
 
 Simply Scrans is a front-end interactive platfrom that is designed for users to browse our favourite recipes to help you cook delicious meals that are inspired from all over the world. 
 
@@ -216,7 +216,7 @@ During the development process chnages have been made. All wireframes are the co
 
 ## Brand Image
 The brand Image/logo for "Simply Scrans" had to be simple, easy on the eye and co-ordinate with the overall theme. It is located at the head of the page and when engaged navigates the user back to the home section.
-<img src="static/img/logo.png">
+<img src="static/img/readme-img/logo.png">
 
 
 
@@ -227,17 +227,17 @@ This was designed with the main font [Nunito](https://fonts.google.com/specimen/
 
 
 
-<img src="static/img/colour-palette.png">
+<img src="static/img/readme-img/colour-palette.png">
 
 All colour choices where assesed within the guidelines of [Web Content Accessibility Guidelines](https://www.w3.org/TR/WCAG20/). Each colour was used with [Contrast Ratio](https://contrast-ratio.com/#%23212121-on-%23F0F3F4) and graded within the guidelines of [W3](https://www.w3.org/TR/WCAG20/) .
 
 #### Green/Cyan (#2D936C)
 This is the most important choice of colour which I have implemented throughout the design. 
 Green symbolises fresh produce which matches with the projects main purpose.   
-<img src="static/img/w3-2.png">
+<img src="static/img/readme-img/w3-2.png">
 #### Charcoal (#454851)
 Charcoal replaced the colour black as its more soft on the eye and gives a modern/professional feel.
-<img src="static/img/w3-1.png">
+<img src="static/img/readme-img/w3-1.png">
 #### Cultured (#F0F3F5)
 An off white background helps soften the users visual experience and adds visual emphasis to other important parts of the design
 
@@ -258,14 +258,14 @@ The navbar is the main method of navigating throughout the site and is a key rol
 Each navigational link when idle remains Charcoal (#454851) unless initiated by user, when this happens the state of the navagtional link changes to Green/Cyan (#2D936C).
 this helps aids in functionality and remain intuitive. 
 
-<img src="static/img/nav-bar.png">
+<img src="static/img/readme-img/nav-bar.png">
 
 ### Call To Action Buttons
 Point of contact needs to be appealing and interactive. for the main C2A points I went in too great detail of styling which provides the user with a visual appearance.
 As C2A points a are important in providing a good UX, I kept the consistant feel of freshness. When ideal the C2A remain clear with a cyan border until the user initates there met by a swooping Green/Cyan effect
 to help draw the user in. 
 
-<img src="static/img/button-1.png"> <img src="static/img/button-2.png">
+<img src="static/img/readme-img/button-1.png"> <img src="static/img/readme-img/button-2.png">
 
 
 # Features <a name="features"></a>

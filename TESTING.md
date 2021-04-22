@@ -1,4 +1,4 @@
-<h1 align="center">IFD Milestone Project - Simply Scran's</h1>
+<h1 align="center">IFD Milestone Project - Simply Scrans</h1>
 
 For full readme [click here](README.md)
 
