@@ -331,19 +331,19 @@ Allow users to interact with each other by comparing recipes, cooking techniques
 * The template I used was a guide made from [Code Institute](https://github.com/Code-Institute-Org/gitpod-full-template).
 * My project uses [Jquery 3.3.1](https://jquery.com/) a javascript library to aid in HTML traversal, event handling, animation, and Ajax.
 * My project uses [Scroll Reveal](https://scrollrevealjs.org/) JavaScript library to animate elements as they scroll into view.
-* My project uses [Email.JS](https://www.emailjs.com/) to send email directly from javaScript
+* My project uses [Email.JS](https://www.emailjs.com/) to send email directly from javaScript.
 * My projects [Favicon-generator](https://www.favicon-generator.org/) to convert the Favicon to the appropriate format.
 * My project uses [Sweet Alert](https://sweetalert2.github.io/) a replacement for JavaScript's popup boxes.
-* My projects API's extracted data from [GoogleAPI](https://console.cloud.google.com/apis/dashboard?pli=1)
+* My projects API's extracted data from [GoogleAPI](https://console.cloud.google.com/apis/dashboard?pli=1).
 * My project uses [Boot Strap](https://getbootstrap.com/) 4.5.2 to aid with responsive and mobile first design.
 * [Popper.js](https://popper.js.org/) 1.14.3 Tool tip, positioning engine.
-* The typography used in my project came from [google fonts](https://fonts.google.com/)
+* The typography used in my project came from [google fonts](https://fonts.google.com/).
 * My projects accessibility was tested with [Google Lighthouse](https://developers.google.com/web/tools/lighthouse)
 * My project uses [Font Awsome](https://fontawesome.com/) v5.15.3 for icons and tool set kits.
-* The wireframes were made with a programme called [balsamiq](https://balsamiq.com/)
-* My projects colour ratio was tested with [Contrast Ratio](https://contrast-ratio.com/)
+* The wireframes were made with a programme called [balsamiq](https://balsamiq.com/).
+* My projects colour ratio was tested with [Contrast Ratio](https://contrast-ratio.com/).
 * My projects logo and typography was graded with [W3](https://www.w3.org/TR/WCAG/#contrast-minimum) guidelines.
-* To aid my css compatabilty for browser support I used [Auto Prefixer](https://autoprefixer.github.io/)
+* To aid my css compatabilty for browser support I used [Auto Prefixer](https://autoprefixer.github.io/).
 * [Techsini](https://techsini.com/multi-mockup/index.php) A tool I used to show that my design is responsive.
 * css code beautified with [minifycocde](http://minifycode.com/css-beautifier/).
 * html code formated using [Github](https://www.gitpod.io/docs/tips-and-tricks/#format-document) formating tool 
