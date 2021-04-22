@@ -6,7 +6,7 @@ let restaurantLocation = [{
         lat: 51.503000,
         lng: -0.084110
     },
-    
+
     content: `<h4 class="place-name">Aqua Shard</h4>
     <h6 class="place-address">Level 31, The Shard, London SE1 9RY</h6>
     <div class="place-info">

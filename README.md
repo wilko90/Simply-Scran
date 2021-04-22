@@ -95,7 +95,7 @@ A person can be satisfied by eating a good meal as well as reading about one. Si
 This website is designed for users to be able to ensure that the best possible food items are produced every time with a simple interactive interface.
 
 
-* `As a visiting user I want to be able to understand the websites purpose so i can decide if i want to continue navigating`
+* `As a visiting user I want to be able to understand the websites purpose so I can decide if i want to continue navigating`
  
 * `As an invovled user I want the surface to be simple with an aesthetically pleasing design`
 
@@ -103,7 +103,7 @@ This website is designed for users to be able to ensure that the best possible f
 
 * `As a connected user I want to be able to communicate with the site admin in a easy User-friendly way`
 
-* `As a connected user I want to be able to find the best places to eat & drink in london`
+* `As a connected user I want to be able to find the best places to eat, drink in london and know information on that venue`
 
 * `As a mobile user I want to be able to have the same features as the dektop site so I can connect with recipes on the go`
 

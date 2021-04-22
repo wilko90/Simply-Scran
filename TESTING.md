@@ -14,8 +14,90 @@ For full readme [click here](README.md)
 
 
 # User Story Testing <a name="user-story"></a>
+# "As a visiting user I want to be able to understand the websites purpose so I can decide if i want to continue navigating"
+Benchmark - A user must be able to understand the main purpose of the websites goals.
 
-   
+* On initial contact the user is welcomed by the logo that remains in its own container and is visable to the the user at all times.
+* On inital contact the user is greeted with a short introduction and hero image which explains the websites purpose.
+* on inital contact the user is greeted with a list of engagable features which will navigate the user through out the page.
+
+
+Outcome: Successful 
+
+<img src="static/img/testing-img/userstory-1.png">
+
+# "As an invovled user I want the surface to be simple with an aesthetically pleasing design"
+Benchmark - Website should be intuative and be consitent with colour throughout
+
+* On inital contact the user is greeted with a heading that summarizes the websites purpose.
+* Consitancy in colours throughout chosen by inital colour palette.
+* All interactive features match with aesthetics and are descriptive of purpose.
+* Surface is simple and easy to navigate.
+
+Outcome: Successful 
+
+<img src="static/img/testing-img/userstory-2-3.png"> 
+<img src="static/img/testing-img/userstory-2-4.png">
+<img src="static/img/testing-img/userstory-2-1.png"> 
+<img src="static/img/testing-img/userstory-2-2.png"> 
+
+# "As a connected user I want to be able to browse your favourite recipes and receive clear insturctions on how to cook them"
+Benchmark - To easily navigate to a recipe and be presented with introductions and the method on how to cook.
+
+* The user can navigate by simply scrolling through the sections to find there desired recipe. 
+* The user can interact via the navigation and bar and be sent to there desired recipe.
+* When the user has chosen there desired recipe they can initiate the recipe by interacting with the view recipe button.
+* The user is presented with a descriptive yet intuative intructons on how to cook and what ingrediants they need.
+
+Outcome: Successful 
+
+<img src="static/img/testing-img/userstory-3-1.png"> 
+<img src="static/img/testing-img/userstory-3-2.png"> 
+<img src="static/img/testing-img/userstory-3-3.png">  
+
+# "As a connected user I want to be able to communicate with the site admin in a easy User-friendly way"
+
+Benchmark - To comfortably locate the contact form and input the relative data to be able to conntect to the site admin.
+
+* The user can navigate by simply scrolling through the sections to find the contact section
+* The user can interact via the navigation and bar and be sent to the contact section.
+* The user is greeted with a short yet descriptive heading heading to inform the user that they are in the correct section to contact the admin.
+* The contact form is engaged by a large interactive C2A adjacent to the contact heading
+* The user is presented with a pop up form (modal) with five input fields and a large submit button.
+
+Outcome: Successful
+
+<img src="static/img/testing-img/userstory-4-1.png">
+<img src="static/img/testing-img/userstory-4-2.png">
+<img src="static/img/testing-img/userstory-4-3.png">
+<img src="static/img/testing-img/userstory-4-4.png">
+
+
+# "As a connected user I want to be able to find the best places to eat, drink in london and know information on that venue"
+
+Benchmark - A user should be able to locate the top picks section, select one of three options, where a map will intiate markers that will have the relevant inforamtion on the venue.
+
+* The user can navigate to the top picks section
+* The user is presented with an informative header to lead the user in to engagement.
+* Three clickable buttons that alow the user to engage with the map
+* When user engages with desired buttons, the user will be prompted on the map via a marker giving them the location of five venues.
+* Each marker placed on the map can be interacted with showing the user a descriptive info window about the selected venue.
+
+Outcome: Successful
+
+<img src="static/img/testing-img/userstory-5-1.png">
+<img src="static/img/testing-img/userstory-5-2.png">
+<img src="static/img/testing-img/userstory-5-3.png">
+<img src="static/img/testing-img/userstory-5-4.png">
+
+# As a mobile user I want to be able to have the same features as the dektop site so I can connect with recipes on the go
+
+Benchmark - A user should be able to use all the features in any chosen viewport
+
+* This website uses bootstraps functionality to be able to allow native compatability in any viewport
+* The top picks section allows the user to select there favourite venues on a mobile device as ive targeted classes with media queries
+* The map zoom has been increased for medium to small devices.
+* Modals have been targeted with media queries to allow recipe content to be 
 
 # Features Testing <a name="features-testing"></a>
 

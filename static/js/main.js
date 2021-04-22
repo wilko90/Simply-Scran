@@ -2,10 +2,8 @@
 //https://www.youtube.com/watch?v=RsPWEmfOQdU
 const sections = document.querySelectorAll('section');
 const navLi = document.querySelectorAll('nav .container ul li');
-
 window.addEventListener('scroll', () => {
     let current = '';
-
     sections.forEach(section => {
         const sectionTop = section.offsetTop;
         const sectionHeight = section.clientHeight;
@@ -13,7 +11,6 @@ window.addEventListener('scroll', () => {
             current = section.getAttribute('id');
         }
     })
-
     navLi.forEach(li => {
         li.classList.remove('active-nav');
         if (li.classList.contains(current)) {
@@ -21,10 +18,6 @@ window.addEventListener('scroll', () => {
         }
     })
 })
-
-
-
-
 //SCROLL REVEAL
 //https://stackoverflow.com/questions/40620736/scrollreveal-javascript-not-defined
 const sr = ScrollReveal({
@@ -33,11 +26,6 @@ const sr = ScrollReveal({
     duration: 2200,
     reset: true
 });
-
 sr.reveal(`.home-margin, .initial-home-image, .inspiration-reveal, .card-1-reveal, .card-2-reveal, .card-3-reveal, .veg-image-size, .about-us-col, .map-media, .maps-col,  .contact-reveal, .contact-button`, {
     interval: 200
 });
-
-
-
-
