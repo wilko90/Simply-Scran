@@ -424,11 +424,17 @@ The Images used in this site were obtained from multiple sources I located throu
 * Map Info Windows [Google Map Info Windows](https://developers.google.com/maps/documentation/javascript/infowindows?authuser=1)
 * Scroll Sections [Youtube](https://www.youtube.com/watch?v=RsPWEmfOQdU)
 * Scroll Reveal [Stack Overflow](https://stackoverflow.com/questions/40620736/scrollreveal-javascript-not-defined)
-* 
-
+* Contact Form powered with [Email.js](https://www.emailjs.com/)
+* Contact java script [Code Institue](https://codeinstitute.net/)
+* Contact status 200 and 404 alert [Sweet Alert](https://sweetalert2.github.io/) 
 
 # Acknowledgements <a name="acknowledgements"></a>
 
+* The Inspiration of this project came from my love of food and drink. My aim is to make functionality simple, eye catching design and consitancy throughout.
 
- 
+* Thank you to the slack community for guiding me in the right direction.
+
+* Thank you to my girlfriend for supporting me throughout this project. 
+
+* Thank you to my mentor Rohit for giving me good feedback
  

@@ -38,7 +38,6 @@ sr.reveal(`.home-margin, .initial-home-image, .inspiration-reveal, .card-1-revea
     interval: 200
 });
 
-//HIDE COLLAPSABLE NAVBAR
-//https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-navbar-on-click
+
 
 
