@@ -393,27 +393,42 @@ For more Information have a look at the official git hub page on cloning a repos
 
 # Credits <a name="credits"></a>
 
+## Written Content
 
-* All other content is written by myself.
+All content is written by myself.
 
+## Modal Content 
 
+All recipes are used from external sources:
 
+* Roasted vegitable tart recipe was taken from [Food and Wine](https://www.foodandwine.com/recipes/roasted-vegetable-tarts).
+* Soy Ginger Glazed Halibut w/ Ginger Peach Relish was taken from [Southern Fatty](https://www.southernfatty.com/chargrilled-glazed-halibut/).
+* Pan-fried Duck Breast,Redcurrant and Port Sauce was taken from [Spar](https://www.spar.co.uk/recipes/pan-fried-duck-breast-with-redcurrant-and-port-sauce).
 
-* Favicon came from [Iconfinder](https://www.iconfinder.com/)
+## Images
 
+The Images used in this site were obtained from multiple sources I located through google searches that are free to download. Below are the links.
 
-
-
+* Initial home image: [PNG find](https://www.pngfind.com/).
+* Roasted vegitable tart image: [Food and Wine](https://www.foodandwine.com/recipes/roasted-vegetable-tarts).
+* Soy Ginger Glazed Halibut w/ Ginger Peach Relish image: [Southern Fatty](https://www.southernfatty.com/chargrilled-glazed-halibut/).
+* Pan-fried Duck Breast,Redcurrant and Port Sauce image: [Spar](https://www.spar.co.uk/recipes/pan-fried-duck-breast-with-redcurrant-and-port-sauce).
+* About Image: [PNG find](https://www.pngfind.com/)
 
 ## Code
 
-
-
-
+* CSS button styling and hover effect [Youtube](https://www.youtube.com/watch?v=gM3IGPFwwvA&t=4s*/)
+* Box Shadows [CSS Tricks](https://css-tricks.com/almanac/properties/b/box-shadow/)
+* Map generation [Google Map](https://developers.google.com/maps/documentation/javascript/styling?authuser=1)
+* Map markers [Google Map Markers](https://developers.google.com/maps/documentation/javascript/markers?authuser=1)
+* Map Info Windows [Google Map Info Windows](https://developers.google.com/maps/documentation/javascript/infowindows?authuser=1)
+* Scroll Sections [Youtube](https://www.youtube.com/watch?v=RsPWEmfOQdU)
+* Scroll Reveal [Stack Overflow](https://stackoverflow.com/questions/40620736/scrollreveal-javascript-not-defined)
+* 
 
 
 # Acknowledgements <a name="acknowledgements"></a>
 
--
+
  
  

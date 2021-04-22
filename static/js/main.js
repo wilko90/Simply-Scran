@@ -40,10 +40,5 @@ sr.reveal(`.home-margin, .initial-home-image, .inspiration-reveal, .card-1-revea
 
 //HIDE COLLAPSABLE NAVBAR
 //https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-navbar-on-click
-const navLinks = document.querySelectorAll('.nav-item')
-const menuToggle = document.getElementById('Responsivenav')
-const bsCollapse = new bootstrap.Collapse(menuToggle)
-navLinks.forEach((l) => {
-    l.addEventListener('click', () => { bsCollapse.toggle() })
-})
+
 
