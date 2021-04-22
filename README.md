@@ -1,7 +1,7 @@
-<h1 align="center">IFD Milestone Project - Simply Scran's </h1>
+<h1 align="center">IFD Milestone Project - Simply Scrans </h1>
 
 
-<img src="static/images/responsive-layout.png">
+<img src="static/img/logo.png"> <img src="static/img/scran-definition.png">
 
 Simply Scrans is a front-end interactive platfrom that is designed for users to browse our favourite recipes to help you cook delicious meals that are inspired from all over the world. 
 
@@ -370,19 +370,19 @@ For full testing section [click here](TESTING.md)
 
 ### How to Clone a repository
 1. Log in to [Github](https://github.com/)
-2. Click on the repository [UCFD-Milestone-Daftpunk-Discography](https://github.com/wilko90/UCFD-Milestone-Daftpunk-Discography) 
+2. Click on the repository [Simply-Scrans](https://wilko90.github.io/Simply-Scran/) 
 3. Navigate to the list of files and click the button `Code`
-4. To clone the repository using HTTPS copy the link below either manually or with the clipboard icon. (https://github.com/wilko90/UCFD-Milestone-Daftpunk-Discography.git) 
+4. To clone the repository using HTTPS copy the link below either manually or with the clipboard icon. (https://wilko90.github.io/Simply-Scran/.git) 
 5. Open your preferred IDE software e.g [Atom](https://atom.io/) or [PhyCharm](https://www.jetbrains.com/pycharm/)
 6. Create a directory where you would like your clone to be stored.
-7. Type `git clone`, and then paste the URL you copied earlier(https://github.com/wilko90/UCFD-Milestone-Daftpunk-Discography.git)
+7. Type `git clone`, and then paste the URL you copied earlier(https://wilko90.github.io/Simply-Scran/.git)
 8. Press `Enter` to create your clone   
 
 For more Information have a look at the official git hub page on cloning a repository [Click here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
 
 ### Manually downloading
 1. Log in to Github
-2. Click on the repository [UCFD-Milestone-Daftpunk-Discography](https://github.com/wilko90/
+2. Click on the repository [Simply Scrans](https://github.com/wilko90/Simply-Scran)
 3. Navigate to the list of files and click the button `Code`
 4. Select `Download Zip`
 5. A downloaded zip file will be stored on your computer, Unzip this file, the contents should open as a folder.
