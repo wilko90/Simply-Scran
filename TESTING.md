@@ -68,9 +68,10 @@ Benchmark - To comfortably locate the contact form and input the relative data t
 Outcome: Successful
 
 <img src="static/img/testing-img/userstory-4-1.png">
+<img src="static/img/testing-img/userstory-4-4.png">
 <img src="static/img/testing-img/userstory-4-2.png">
 <img src="static/img/testing-img/userstory-4-3.png">
-<img src="static/img/testing-img/userstory-4-4.png">
+
 
 
 # "As a connected user I want to be able to find the best places to eat, drink in london and know information on that venue"
@@ -85,26 +86,56 @@ Benchmark - A user should be able to locate the top picks section, select one of
 
 Outcome: Successful
 
+<img src="static/img/testing-img/userstory-5-4.png">
 <img src="static/img/testing-img/userstory-5-1.png">
 <img src="static/img/testing-img/userstory-5-2.png">
 <img src="static/img/testing-img/userstory-5-3.png">
-<img src="static/img/testing-img/userstory-5-4.png">
+
 
 # As a mobile user I want to be able to have the same features as the dektop site so I can connect with recipes on the go
 
 Benchmark - A user should be able to use all the features in any chosen viewport
 
 * This website uses bootstraps functionality to be able to allow native compatability in any viewport
-* The top picks section allows the user to select there favourite venues on a mobile device as ive targeted classes with media queries
+* The top picks section allows the user to select there favourite venues on a mobile device by targeting classes with media queries.
 * The map zoom has been increased for medium to small devices.
-* Modals have been targeted with media queries to allow recipe content to be 
+* Modals have been targeted with media queries to allow recipe content to be responsive to all viewports.
+
+Outcome: Successful
+
+<img src="static/img/testing-img/userstory-6-1.png">
+<img src="static/img/testing-img/userstory-6-2.png">
+
 
 # Features Testing <a name="features-testing"></a>
 
+### Fetching API 
+
+* Once page has fully loaded open google Dev tools.
+   * Navigate to the console.
+   * In the search bar search google.
+   * Select maps in the curley braces.
+   * large list of entries will show that lead too subdirectories.
+* Further testing in dev tools.
+   * Navigate to the network Tab.
+   * Refresh page, where the Dom and the load time will take place.
+   * Under the name tab select the request name tag for google maps.
+   * in the headers tab you will be present with a status code of 200.
+
+### Navigation Bar
+* On initial load ensure the navigation bar loads the full width of the screen with correct links and logo.
+* Ensure each navigation link is active when pressed.
+* Ensure each link when pressed sends user to correct section of the webpage.
+* Ensure when logo is initated that the user is directed back to the home section.
+* `Home`-`Menu`-`About Us`-`Top Picks`-`Contact`
+* `Menu`-`About Us`-`Top Picks`-`Contact`-`Home`
+* `About Us`-`Top Picks`-`Conacts`-`Home`-`Menu`
+* `Top Picks`-`Contacts`-`Home`-`Menu`- `About Us`
+* `Contacts`-`Home`-`Menu`- `About Us`- `Top Picks`
+* Ensure when manually scrolling that the navigation bar remains at the head of the page at all times.
 
 
 # Further Testing <a name="further-testing"></a>
-
 
 
 
@@ -113,7 +144,8 @@ Benchmark - A user should be able to use all the features in any chosen viewport
  
 
 
- # Validation Testing <a name="validation-testing"></a>
+
+# Validation Testing <a name="validation-testing"></a>
 
 
 

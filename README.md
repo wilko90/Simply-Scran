@@ -361,7 +361,6 @@ For full testing section [click here](TESTING.md)
 1. Log in to [Github](https://github.com/)
 2. Click on the repository [UCFD-Milestone-Daftpunk-Discography](https://github.com/wilko90/UCFD-Milestone-Daftpunk-Discography) 
 3. From the repositories in sub-headings, select "Settings".
-
 4. Scroll down until you reach the heading `Github Pages`
 5. From the dropdown list under the "Source" heading, select "master".
 6. The second drop-down menu that appears should remain as "/root".
@@ -389,6 +388,7 @@ For more Information have a look at the official git hub page on cloning a repos
 6. Open your prefered IDE software
 7. Search your system to locate unzipped file.
 8. Run the file. 
+
 
 
 # Credits <a name="credits"></a>
