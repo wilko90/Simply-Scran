@@ -254,9 +254,9 @@ a:hover {
 	opacity: 0.5;
 	-webkit-filter: blur(30px);
 	filter: blur(30px);
-	-webkit-transform: translateX(-130px) skewX(-15deg);
-	-ms-transform: translateX(-130px) skewX(-15deg);
-	transform: translateX(-130px) skewX(-15deg);
+	-webkit-transform: translateX(-130px) skewX(0);
+	-ms-transform: translateX(-130px) skewX(0);
+	transform: translateX(-130px) skewX(0);
 }
 .maps-buttons-style:after {
 	content: "";
@@ -270,9 +270,9 @@ a:hover {
 	opacity: 0;
 	-webkit-filter: blur(30px);
 	filter: blur(30px);
-	-webkit-transform: translate(-100px) scaleX(-15deg);
-	-ms-transform: translate(-100px) scaleX(-15deg);
-	transform: translate(-100px) scaleX(-15deg);
+	-webkit-transform: translate(-100px) scaleX(0);
+	-ms-transform: translate(-100px) scaleX(0);
+	transform: translate(-100px) scaleX(0);
 }
 .maps-buttons-style:hover {
 	background: #2D936C;
@@ -280,18 +280,18 @@ a:hover {
 	cursor: pointer;
 }
 .maps-buttons-style:before {
-	-webkit-transform: translateX(300px) skewX(-15deg);
-	-ms-transform: translateX(300px) skewX(-15deg);
-	transform: translateX(300px) skewX(-15deg);
+	-webkit-transform: translateX(300px) skewX(0);
+	-ms-transform: translateX(300px) skewX(0);
+	transform: translateX(300px) skewX(0);
 	opacity: 0.6;
 	-webkit-transition: 0.7s;
 	-o-transition: 0.7s;
 	transition: 0.7s;
 }
 .maps-buttons-style:after {
-	-webkit-transform: translateX(300px) skewX(-15deg);
-	-ms-transform: translateX(300px) skewX(-15deg);
-	transform: translateX(300px) skewX(-15deg);
+	-webkit-transform: translateX(300px) skewX(-0);
+	-ms-transform: translateX(300px) skewX(0);
+	transform: translateX(300px) skewX(0);
 	opacity: 1;
 	-webkit-transition: 0.7s;
 	-o-transition: 0.7s;
@@ -352,9 +352,9 @@ a:hover {
 	opacity: 0.5;
 	-webkit-filter: blur(30px);
 	filter: blur(30px);
-	-webkit-transform: translateX(-130px) skewX(-15deg);
-	-ms-transform: translateX(-130px) skewX(-15deg);
-	transform: translateX(-130px) skewX(-15deg);
+	-webkit-transform: translateX(-130px) skewX(0);
+	-ms-transform: translateX(-130px) skewX(0);
+	transform: translateX(-130px) skewX(0);
 }
 .contact-button:after {
 	content: "";
@@ -368,9 +368,9 @@ a:hover {
 	opacity: 0;
 	-webkit-filter: blur(30px);
 	filter: blur(30px);
-	-webkit-transform: translate(-100px) scaleX(-15deg);
-	-ms-transform: translate(-100px) scaleX(-15deg);
-	transform: translate(-100px) scaleX(-15deg);
+	-webkit-transform: translate(-100px) scaleX(0);
+	-ms-transform: translate(-100px) scaleX(0);
+	transform: translate(-100px) scaleX(0);
 }
 .contact-button:hover {
 	background: #2D936C;
@@ -378,18 +378,18 @@ a:hover {
 	cursor: pointer;
 }
 .contact-button:hover:before {
-	-webkit-transform: translateX(300px) skewX(-15deg);
-	-ms-transform: translateX(300px) skewX(-15deg);
-	transform: translateX(300px) skewX(-15deg);
+	-webkit-transform: translateX(300px) skewX(0);
+	-ms-transform: translateX(300px) skewX(0);
+	transform: translateX(300px) skewX(0);
 	opacity: 0.6;
 	-webkit-transition: 0.7s;
 	-o-transition: 0.7s;
 	transition: 0.7s;
 }
 .contact-button:hover:after {
-	-webkit-transform: translateX(300px) skewX(-15deg);
-	-ms-transform: translateX(300px) skewX(-15deg);
-	transform: translateX(300px) skewX(-15deg);
+	-webkit-transform: translateX(300px) skewX(0);
+	-ms-transform: translateX(300px) skewX(0);
+	transform: translateX(300px) skewX(0);
 	opacity: 1;
 	-webkit-transition: 0.7s;
 	-o-transition: 0.7s;

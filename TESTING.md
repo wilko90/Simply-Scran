@@ -226,9 +226,64 @@ All features are tested from viewports of 280px and above.
 
 * All testing successful
 
+## Safari
+
+## Internet Explorer
+
 # Validation Testing <a name="validation-testing"></a>
+
+ Validation tetsing was done with third party applications below:
+
+## [W3 Vailidator](https://validator.w3.org/)
+
+* HTML successfully passes W3 Validator
+
+## [Jigsaw Validator ](https://jigsaw.w3.org/css-validator/)
+* CSS successfully passes the W3 Jigsaw Validator
+## [JSHint](https://jshint.com/)
+
+* JS Hint was used to flag any errors or mistakes in the java script code and was used consently through out the development process.
+* No erros are present 
+* Warnings present are due to template literals syntax that is only valid with ES6, how ever by adding `/*jshint esversion: 6 */` at the top of the script this removes the errors and taks in to consideration of ES6 compatibility.
+
+## [Google Lighthouse](https://developers.google.com/web/tools/lighthouse)
+
+This feature is an open source, automated tool for measuring the quality of a webpage.
+
+Home (desktop)
+
+<img src="static/img/testing-img/lighthouse-testing-desktop.png">
+
+* Main issues due to a low performance scrore is due to the sizing of the images, as I want the images to be as clear as possible and `.png` I  did not convert the file or size of these images.
+
+Home (Mobile)
+
+<img src="static/img/testing-img/lighthouse-testing-mobile.png">
+
+* Again main issues due to load time on images. [Google](https://web.dev/optimize-cls/?utm_source=lighthouse&utm_medium=devtools#images-without-dimensions) also recommends to add a height and width to each image. I noticed I ran in to problems with responsiveness so reverted back too `width:100%` `height:auto`.
+
 
 
 
 # Bugs <a name="bugs"></a>
+
+## Map Markers
+### Issue with the map markers not appearing after button was initated.
+ After researching the issue this error was due to not having the `callback` parameter of the Google Maps Javascript api key and also adding `async defer` processes the code parallel to the rest of the page content.
+
+ Solution: Resolved
+
+## Contact button not highlighting green when active on nav bar 
+After trying to debug the issue in google dev tools and `console.log` the current section on the appropriate line of the code. Checking in google dev tools, the scroll for the contact section is not getting targeted.
+
+Solution: Unresolved
+
+## `x` button not working on modals
+
+All modals templates have been used via bootstrap and edited to my own specifications, All appropriate plugins where installed in the html script tags to allow JS to be imported via the bootstrap CDN to close the modal. However with the button not closing I resolved the issue by adding a jquery on-click event `$("#close-modal-button").modal("hide");` 
+
+Solution: Resolved
+
+
+
 

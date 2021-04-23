@@ -1,4 +1,4 @@
-//SCROLL SECTIONS
+//scroll sections
 const sections = document.querySelectorAll('section');
 const navLi = document.querySelectorAll('nav .container ul li');
 window.addEventListener('scroll', () => {
@@ -6,10 +6,11 @@ window.addEventListener('scroll', () => {
     sections.forEach(section => {
         const sectionTop = section.offsetTop;
         const sectionHeight = section.clientHeight;
-        if (pageYOffset >= (sectionTop - sectionHeight / 3)) {
+        if (pageYOffset >= (sectionTop - sectionHeight / 4)) {
             current = section.getAttribute('id');
         }
     })
+    console.log(current)
     navLi.forEach(li => {
         li.classList.remove('active-nav');
         if (li.classList.contains(current)) {
@@ -17,7 +18,7 @@ window.addEventListener('scroll', () => {
         }
     })
 })
-//SCROLL REVEAL
+//scroll reveal
 const sr = ScrollReveal({
     origin: 'top',
     distance: '30px',
@@ -27,3 +28,5 @@ const sr = ScrollReveal({
 sr.reveal(`.home-margin, .initial-home-image, .inspiration-reveal, .card-1-reveal, .card-2-reveal, .card-3-reveal, .veg-image-size, .about-us-col, .map-media, .maps-col,  .contact-reveal, .contact-button`, {
     interval: 200
 });
+//closes recipe modal
+$("#close-modal-button").modal("hide");

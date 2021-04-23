@@ -30,9 +30,9 @@ function sendMail(submitForm) {
                 }
             }).then((result) => {
                 if (result.dismiss === Swal.DismissReason.timer) {
-                    console.log('I was closed by the timer')
+                    console.log('I was closed by the timer');
                 }
-            })
+            });
         },
         // Pop up response when error
         function (error) {
@@ -40,7 +40,7 @@ function sendMail(submitForm) {
                 icon: 'error',
                 title: 'Oops...',
                 text: 'Something went wrong, please try again!',
-            })
+            });
         });
 }
 
