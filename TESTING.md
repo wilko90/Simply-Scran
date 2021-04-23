@@ -170,19 +170,61 @@ Outcome: Successful
 * Ensure only numbers can be inputted in the `phone` fields
 * Ensure you need a `@` in the email field
 * Ensure all fields need to have data in them before the form can be submitted
-* 
+* Ensure Email.js is active and not showing errors
+* Ensure when the form is submitted the modal closes automatically 
+* Ensure a pop up is shown to confrim form has been sent and auto closes after two seconds.
+* Ensure the email is Successfuly recieved and in the correct format (below)<br>
+`Name`<br>
+`Subject`<br>
+`Phone`<br>
+`Email`<br>
+`Message`<br>
+
 
 ### Scroll Reveal
 
+* Ensure Scroll reveal is in a const function and error free.
+* Ensure all selected sections are targetd and converted in to strings.
+* Ensure each section reveals in the correct order.
+* Ensure when refreshed scroll reveal is active.
+
+
 # Further Testing <a name="further-testing"></a>
+## Responsive Design
+
+All testing above was again tested on mulitple devices through chrome developer tools with there `toggle device tool bar`
+
+Devices used for testing:
+* Moto G4
+* Galaxy S5
+* Pixel 2
+* Pixel 2XL
+* iPhone 5/SE
+* iPhone 6/7/8 (and plus)
+* iPhone X
+* iPad
+* iPad Pro
+* Surface Duo
+* Galaxy Fold
+
+All features are tested from viewports of 280px and above.
+
 
 
 
 # Browser Testing <a name="browser-testing"></a>
 
- 
+ All browser testing was done with the same method above
 
+ Problems usually occurred when my CSS was not compatible with most browsers. Running my CSS code through a Auto-Prefixer solved these compatibility issues.
 
+## Chrome/Mircrosoft Edge
+
+* All testing successful
+
+## Mozilla Firefox
+
+* All testing successful
 
 # Validation Testing <a name="validation-testing"></a>
 
