@@ -1,5 +1,4 @@
 //SCROLL SECTIONS
-//https://www.youtube.com/watch?v=RsPWEmfOQdU
 const sections = document.querySelectorAll('section');
 const navLi = document.querySelectorAll('nav .container ul li');
 window.addEventListener('scroll', () => {
@@ -19,7 +18,6 @@ window.addEventListener('scroll', () => {
     })
 })
 //SCROLL REVEAL
-//https://stackoverflow.com/questions/40620736/scrollreveal-javascript-not-defined
 const sr = ScrollReveal({
     origin: 'top',
     distance: '30px',
