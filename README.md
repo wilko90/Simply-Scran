@@ -351,6 +351,7 @@ Allow users to interact with each other by comparing recipes, cooking techniques
 
 
 # Testing <a name="testing"></a>
+<img src="static/img/readme-img/responsive-test.png">
 
 For full testing section [click here](TESTING.md) 
 

@@ -228,7 +228,11 @@ All features are tested from viewports of 280px and above.
 
 ## Safari
 
+* All testing successful
+
 ## Internet Explorer
+
+* My project uses ES6 which has compatability issues with Internet Explorer. No further testing was made.
 
 # Validation Testing <a name="validation-testing"></a>
 
@@ -284,6 +288,6 @@ All modals templates have been used via bootstrap and edited to my own specifica
 
 Solution: Resolved
 
-
+For full readme [click here](README.md)
 
 
