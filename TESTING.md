@@ -105,6 +105,7 @@ Outcome: Successful
 
 <img src="static/img/testing-img/userstory-6-1.png">
 <img src="static/img/testing-img/userstory-6-2.png">
+<img src="static/img/testing-img/userstory-6-3.png">
 
 
 # Features Testing <a name="features-testing"></a>
@@ -134,6 +135,38 @@ Outcome: Successful
 * `Contacts`-`Home`-`Menu`- `About Us`- `Top Picks`
 * Ensure when manually scrolling that the navigation bar remains at the head of the page at all times.
 
+### Modals
+
+* Ensure the Modal opens when intiated via the buttons. 
+* Ensure the Modal is displayed centrally, and the background is appropriately dimmed.
+* Ensure the Modal has a header, body text, and a close button.
+* Ensure the Modal can be closed via the button and also by enganging in the dimmed area.
+* Ensure all content in the Modal fits appropriately within the Modal, and is legible.
+* Ensure modal is responsive in all viewports.
+* Ensure images contained in the modal are hidden when viewed in medium and small viewports. 
+* Ensure the close button closes the Modal.
+* Ensure pressing the escape key closes the Modal.
+
+### Google Maps
+
+* Ensure map is visable and is aligned to the right on desktop or centered in mobile devices.
+* Ensure map is at the correct lattitde `51.503000` and longitude `-0.131550` (Central London) on inital load and when refreshed.
+* Ensure map is at the correct zoom of `10` on desktop and `12` on viewports of 768 pixels or lower.
+* Ensure the map can be manually zoomed in and out by pressing `ctrl` or `command` and scolling with the mouse.
+* Ensure the map can be manually zoomed in and out by using two fingers for touch responsive devices.
+* Ensure when buttons adjacent from the map are initated that markers are present on the map at the correct loctaions.
+* Ensure when mulitple buttons are pressed that the previous markers clear for the new ones.
+* Ensure each marker can be selected and the relevant inforamtion window is present and is responsive to all viewports. 
+* Ensure the inforamtion window has the relevant text and is responsive to all viewports.
+* Ensure the inforamtion Windows can be closed by pressing the `X` button at the right of the window.
+* Ensure when the page refreshes that the map is clear of all markers.
+
+
+### Contact Form & Email.Js
+
+* 
+
+### Scroll Reveal
 
 # Further Testing <a name="further-testing"></a>
 

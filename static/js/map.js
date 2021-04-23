@@ -320,7 +320,7 @@ document.getElementById("cocktails").addEventListener("click", () => {
 });
 
 document.getElementById("wineBars").addEventListener("click", () => {
-    initMap(barLocation);
+    initMap(wineLocation);
 });
 
 
