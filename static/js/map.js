@@ -1,4 +1,3 @@
-
 let map;
 // Restaurant location pins
 let restaurantLocation = [{
@@ -6,7 +5,6 @@ let restaurantLocation = [{
         lat: 51.503000,
         lng: -0.084110
     },
-
     content: `<h4 class="place-name">Aqua Shard</h4>
     <h6 class="place-address">Level 31, The Shard, London SE1 9RY</h6>
     <div class="place-info">
@@ -17,8 +15,7 @@ let restaurantLocation = [{
     <li>Cuisine: Modern British</li>
     </ul>
     </div>`
-},
-{
+}, {
     coords: {
         lat: 51.513950,
         lng: -0.131550
@@ -33,8 +30,7 @@ let restaurantLocation = [{
     <li>Cuisine: Japanese</li>
     </ul>
     </div>`
-},
-{
+}, {
     coords: {
         lat: 51.512058,
         lng: -0.120480
@@ -49,8 +45,7 @@ let restaurantLocation = [{
     <li>Cuisine: American</li>
     </ul>
     </div>`
-},
-{
+}, {
     coords: {
         lat: 51.515140,
         lng: -0.146670
@@ -65,8 +60,7 @@ let restaurantLocation = [{
     <li>Cuisine: Norwegian</li>
     </ul>
     </div>`
-},
-{
+}, {
     coords: {
         lat: 51.510979,
         lng: -0.139100
@@ -81,9 +75,7 @@ let restaurantLocation = [{
     <li>Cuisine: Spanish</li>
     </ul>
     </div>`
-},
-
-];
+},];
 // Cocktail location pins
 let barLocation = [{
     coords: {
@@ -99,8 +91,7 @@ let barLocation = [{
     <li>Contact Number: 020 3457 8099</li>
     </ul>
     </div>`
-},
-{
+}, {
     coords: {
         lat: 51.510471,
         lng: -0.120920
@@ -114,8 +105,7 @@ let barLocation = [{
     <li>Contact Number: 020 7420 2111</li>
     </ul>
     </div>`
-},
-{
+}, {
     coords: {
         lat: 51.524899,
         lng: -0.093010
@@ -129,8 +119,7 @@ let barLocation = [{
     <li>Contact Number: 020 7608 2774</li>
     </ul>
     </div>`
-},
-{
+}, {
     coords: {
         lat: 51.507069,
         lng: -0.111630
@@ -144,8 +133,7 @@ let barLocation = [{
     <li>Contact Number: 020 3747 1063</li>
     </ul>
     </div>`
-},
-{
+}, {
     coords: {
         lat: 51.538342,
         lng: -0.099340
@@ -160,9 +148,7 @@ let barLocation = [{
     <li>Cuisine: Spanish</li>
     </ul>
     </div>`
-},
-
-];
+},];
 // Wine bar location pins
 let wineLocation = [{
     coords: {
@@ -178,8 +164,7 @@ let wineLocation = [{
     <li>Contact Number: 020 7930 1408</li>
     </ul>
     </div>`
-},
-{
+}, {
     coords: {
         lat: 51.530529,
         lng: -0.073140
@@ -193,8 +178,7 @@ let wineLocation = [{
     <li>Contact Number: 020 8127 7330</li>
     </ul>
     </div>`
-},
-{
+}, {
     coords: {
         lat: 51.514420,
         lng: -0.104280
@@ -208,8 +192,7 @@ let wineLocation = [{
     <li>Contact Number: 020 7236 2936</li>
     </ul>
     </div>`
-},
-{
+}, {
     coords: {
         lat: 51.461609,
         lng: -0.138270
@@ -223,8 +206,7 @@ let wineLocation = [{
     <li>Contact Number: 020 3747 1063</li>
     </ul>
     </div>`
-},
-{
+}, {
     coords: {
         lat: 51.512299,
         lng: -0.079560
@@ -239,13 +221,8 @@ let wineLocation = [{
     <li>Cuisine: Spanish</li>
     </ul>
     </div>`
-},
-
-];
-
-
+},];
 // Generate map
-
 function initMap(selectedLocations) {
     let myLatlng = {
         lat: 51.5074,
@@ -256,26 +233,20 @@ function initMap(selectedLocations) {
         center: myLatlng,
         disableDefaultUI: true,
     });
-
     // Change zoom level on smaller screen sizes
-
     if (window.screen.width < 768) {
         let myLatlng = {
             lat: 51.5074,
             lng: -0.1278
         };
-
         map = new google.maps.Map(document.getElementById("map"), {
             zoom: 12,
             center: myLatlng,
             disableDefaultUI: true,
         });
     }
-
     let labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-
     // array of locations and place markers 
-
     if (selectedLocations) {
         for (let i = 0; i < selectedLocations.length; i++) {
             let marker = new google.maps.Marker({
@@ -283,44 +254,29 @@ function initMap(selectedLocations) {
                 map: map,
                 animation: google.maps.Animation.DROP,
             });
-
             // Info window
-
             const infowindow = new google.maps.InfoWindow({
                 content: selectedLocations[i].content,
             });
-
             // Close info window 
-
             google.maps.event.addListener(marker, 'click', function () {
                 if (currentInfoWindow != null) {
                     currentInfoWindow.close();
                 }
-
                 infowindow.open(map, marker);
                 currentInfoWindow = infowindow;
             });
-
             var currentInfoWindow = null;
         }
     }
-
-
 }
-
-
 // Event listners
 document.getElementById("restaurants").addEventListener("click", () => {
     initMap(restaurantLocation);
-
 });
-
 document.getElementById("cocktails").addEventListener("click", () => {
     initMap(barLocation);
 });
-
 document.getElementById("wineBars").addEventListener("click", () => {
     initMap(wineLocation);
 });
-
-

@@ -437,5 +437,7 @@ The Images used in this site were obtained from multiple sources I located throu
 
 * Thank you to my girlfriend for supporting me throughout this project. 
 
-* Thank you to my mentor Rohit for giving me good feedback
+* Thank you to my mentor Rohit for giving me good feedback and pointers
  
+# Disclaimer
+
