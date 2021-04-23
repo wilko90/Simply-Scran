@@ -100,7 +100,6 @@ body {
 	padding: 0;
 }
 /*************** ABOUT US SECTION ************/
-
 .about-image-size {
 	max-width: 100%;
 	height: auto;
@@ -127,7 +126,6 @@ body {
 	margin-top: 6rem;
 }
 /*************** MENU SECTION ************/
-
 .inspiration-title {
 	color: #2D936C;
 	font-weight: bold;
@@ -190,7 +188,6 @@ a:hover {
 	width: 100%;
 }
 /*************** MAPS SECTION ************/
-
 .map-css {
 	height: 400px;
 	width: 100%;
@@ -220,11 +217,7 @@ a:hover {
 	margin-left: 15px;
 }
 /*************** MAPS BUTTONS ************/
-
-/*tutorial https://www.youtube.com/watch?v=gM3IGPFwwvA&t=4s*/
-
 /*Button hover effect*/
-
 .maps-buttons-style {
 	position: relative;
 	top: 10%;
@@ -305,7 +298,6 @@ a:hover {
 	transition: 0.7s;
 }
 /*************** CONTACT PAGE ************/
-
 .contact-title {
 	color: #2D936C;
 	font-weight: bold;
@@ -323,10 +315,7 @@ a:hover {
 #contacts{
     margin-top: 160px;
 }
-/*tutorial https://www.youtube.com/watch?v=gM3IGPFwwvA&t=4s*/
-
 /*Button hover effect*/
-
 .contact-button {
 	position: relative;
 	top: 50%;

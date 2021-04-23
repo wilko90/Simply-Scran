@@ -145,6 +145,7 @@ Outcome: Successful
 * Ensure modal is responsive in all viewports.
 * Ensure images contained in the modal are hidden when viewed in medium and small viewports. 
 * Ensure the close button closes the Modal.
+* Ensure buttons nested in modals are active.
 * Ensure pressing the escape key closes the Modal.
 
 ### Google Maps
@@ -164,6 +165,11 @@ Outcome: Successful
 
 ### Contact Form & Email.Js
 
+* Ensure contact form appears when contact button is initated.
+* Ensure five fileds are engagable with the relevant text
+* Ensure only numbers can be inputted in the `phone` fields
+* Ensure you need a `@` in the email field
+* Ensure all fields need to have data in them before the form can be submitted
 * 
 
 ### Scroll Reveal
